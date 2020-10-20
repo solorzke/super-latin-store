@@ -1,16 +1,15 @@
 
 #btn {
-  background: #EE4266;
+  background: #759EB8;
   color: #fff;
-  border: 0.25rem solid #EE4266;
+  border: 0.25rem solid #759EB8;
   padding: 3px 10px;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  border-radius: 30px;
 }
 #btn:hover {
-  color: #EE4266;
+  color: #759EB8;
 }
 #btn::after {
   content: "";

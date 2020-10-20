@@ -12,7 +12,7 @@ const Bar = ({ active }) => {
 	});
 
 	return (
-		<Navbar style={{ backgroundColor: '#2A1E5C' }} expand="lg" variant="dark">
+		<Navbar style={{ backgroundColor: '#7392B7', fontFamily: "'Bebas Neue', cursive" }} expand="lg" variant="dark">
 			<Col>
 				<Navbar.Brand href="/">
 					<i className="fas fa-shipping-fast brand" /> Super Latin Store

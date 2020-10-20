@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center top; 
+    background-size: auto 50%;
+    position: relative;
 }
 
 .product-grid-point {

@@ -1,3 +1,8 @@
+//Images
+import Phone from '../images/phone.png';
+import Payment from '../images/pay.png';
+import Money from '../images/money.png';
+
 export const Products = [
 	{
 		name: 'Bananas'
@@ -8,7 +13,7 @@ export const Services = {
 	SEND_MONEY: {
 		name: 'Send Money',
 		description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: 'https://designshack.net/wp-content/uploads/placeholder-image.png',
+		image: Money,
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -32,7 +37,7 @@ export const Services = {
 	PAY_BILL: {
 		name: 'Pay Bill',
 		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-		image: 'https://designshack.net/wp-content/uploads/placeholder-image.png',
+		image: Payment,
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -57,7 +62,7 @@ export const Services = {
 	BOOST_RECHARGE: {
 		name: 'Boost Mobile Recharge',
 		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-		image: 'https://designshack.net/wp-content/uploads/placeholder-image.png',
+		image: Phone,
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
