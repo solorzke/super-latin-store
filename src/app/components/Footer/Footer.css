@@ -3,12 +3,27 @@ footer {
     vertical-align: middle;
     padding-top: 10px;
     align-content: center;
-    justify-content: center;
+	justify-content: center;
+	background-color: #7392B7;
+	color: #000;
+	display: flex;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	font-family: 'Bebas Neue', cursive;
 }
 
 .navigation-footer {
-	background: #fff;
+	background: #7392B7;
 	padding: 40px;
+}
+
+.navigation-footer a {
+	color: #fff
+}
+
+.navigation-footer a:hover {
+	color: #F08700
 }
 
 .footer-icon {

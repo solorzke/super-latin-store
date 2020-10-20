@@ -8,7 +8,9 @@ const Footer = () => {
 		<>
 			<Navigation />
 			<footer>
-				<p>&copy; {new Date().getFullYear()} Super Latin Store | All rights reserved</p>
+				<strong>
+					<p>&copy; {new Date().getFullYear()} Super Latin Store | All rights reserved</p>
+				</strong>
 			</footer>
 		</>
 	);
@@ -42,8 +44,8 @@ const Navigation = () => {
 						<Table borderless responsive="md">
 							<thead>
 								<tr>
-									<th className="banner-title">Services</th>
-									<th className="banner-title">Contact</th>
+									<th className="banner-title heading-font">Services</th>
+									<th className="banner-title heading-font">Contact</th>
 								</tr>
 							</thead>
 							<tbody>
