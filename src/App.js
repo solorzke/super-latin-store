@@ -2,10 +2,16 @@ import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import Home from './app/pages/Home';
+import About from './app/pages/About';
+import Products from './app/pages/Products';
+import Service from './app/pages/Service';
 
 function App() {
 	return (
 		<Switch>
+			<Route component={About} path="/about" />
+			<Route component={Service} path="/products/service" />
+			<Route component={Products} path="/products" />
 			<Route component={Home} path="/" />
 		</Switch>
 	);

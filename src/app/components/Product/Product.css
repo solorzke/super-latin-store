@@ -1,0 +1,12 @@
+.product-card {
+    justify-content: flex-end;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.product-grid-point {
+    padding: 20%;
+}
