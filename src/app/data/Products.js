@@ -13,7 +13,8 @@ export const Products = [
 	{
 		name: 'COVID-19 Masks',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Masks',
 		price: [ 1, 10, 15 ]
 	},
@@ -21,7 +22,8 @@ export const Products = [
 	{
 		name: 'Humas',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Humas',
 		price: [ 2 ]
 	},
@@ -29,7 +31,8 @@ export const Products = [
 	{
 		name: 'Albacora',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Albacora',
 		price: [ 6 ]
 	},
@@ -37,7 +40,8 @@ export const Products = [
 	{
 		name: 'Boss Revolution Calling Card',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Boss Revolution Calling Card',
 		price: [ 2, 5 ]
 	},
@@ -45,7 +49,8 @@ export const Products = [
 	{
 		name: 'Beverages',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Beverages',
 		price: [ 1, 2, 3 ]
 	},
@@ -53,7 +58,8 @@ export const Products = [
 	{
 		name: 'Copies',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Copies',
 		price: [ 1 ]
 	},
@@ -61,7 +67,8 @@ export const Products = [
 	{
 		name: 'Electronics',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Electronics',
 		price: [ 'Varies per item' ]
 	},
@@ -69,7 +76,8 @@ export const Products = [
 	{
 		name: 'Smart Phones',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Smart Phones',
 		price: [ 'Varies per phone' ]
 	},
@@ -77,7 +85,8 @@ export const Products = [
 	{
 		name: 'Apparel',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: [ Mask1, Mask2, Mask3 ],
+		images: [ Mask1, Mask2, Mask3 ],
+		image: Mask1,
 		alt: 'Apparel',
 		price: [ 'Varies per item' ]
 	}

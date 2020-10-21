@@ -3,13 +3,19 @@ import './Product.css';
 import { Link } from 'react-router-dom';
 import { Row, Col, Container } from 'react-bootstrap';
 
-export const ProductCard = ({ data, width = 'auto', height = 500 }) => {
+export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
+	const path = data.hasOwnProperty('price') ? '/products/product' : 'products/service';
 	return (
 		<Col>
-			<Link to={{ pathname: '/products/service', state: data }}>
+			<Link to={{ pathname: path, state: data }}>
 				<div
 					className="product-card"
-					style={{ backgroundImage: `url(${data.image})`, width: width, height: height }}
+					style={{
+						backgroundImage: `url(${data.image})`,
+						width: width,
+						height: height,
+						backgroundPosition: pos
+					}}
 				>
 					<h2>{data.name}</h2>
 					<p>{data.description}</p>
@@ -19,7 +25,7 @@ export const ProductCard = ({ data, width = 'auto', height = 500 }) => {
 	);
 };
 
-export const ProductGrid = ({ data, type, width = 'auto', height = 500 }) => {
+export const ProductGrid = ({ data, type, width = 'auto', height = 500, pos = 'center top' }) => {
 	const services = Object.keys(data);
 	const returnRows = () => {
 		let rows = [];
@@ -31,7 +37,7 @@ export const ProductGrid = ({ data, type, width = 'auto', height = 500 }) => {
 					type === 'point' ? (
 						<Point data={data[key]} />
 					) : (
-						<ProductCard data={data[key]} width={width} height={height} />
+						<ProductCard data={data[key]} width={width} height={height} pos={pos} />
 					);
 				row.push(gridPoint);
 			}
@@ -53,5 +59,21 @@ export const Point = ({ data }) => {
 				</div>
 			</Link>
 		</Col>
+	);
+};
+
+export const ProductList = ({ data }) => {
+	return (
+		<Link to={{ pathname: '/products/product', state: data }}>
+			<h1>sfd</h1>
+		</Link>
+	);
+};
+
+export const ListItem = ({ data }) => {
+	return (
+		<Link to={{ pathname: '/products/product', state: data }}>
+			<Col />
+		</Link>
 	);
 };

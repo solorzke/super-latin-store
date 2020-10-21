@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer/Footer';
 import Newsletter from '../components/Newsletter/Newsletter';
-import { Services } from '../data/Products';
+import { Services, Products } from '../data/Products';
 import { Nav } from 'react-bootstrap';
 import { ProductGrid } from '../components/Product/Product';
 import { Container } from 'react-bootstrap';
@@ -37,7 +37,7 @@ const ProductsPage = () => {
 			</header>
 			<Container>
 				{tab === 'services' && <ProductGrid data={Services} type="card" />}
-				{tab === 'products' && <ProductGrid data={Services} type="point" />}
+				{tab === 'products' && <ProductGrid data={Products} type="card" pos="center top" />}
 			</Container>
 			<Newsletter />
 			<Footer />
