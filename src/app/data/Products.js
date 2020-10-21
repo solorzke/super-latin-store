@@ -5,10 +5,81 @@ import Money from '../images/money.png';
 import MoneyOrder from '../images/moneyorder.png';
 import Receiving from '../images/receive.png';
 import CashCheck from '../images/cashcheck.png';
+import Mask1 from '../images/masks/1.png';
+import Mask2 from '../images/masks/2.png';
+import Mask3 from '../images/masks/3.png';
 
 export const Products = [
 	{
-		name: 'Bananas'
+		name: 'COVID-19 Masks',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Masks',
+		price: [ 1, 10, 15 ]
+	},
+
+	{
+		name: 'Humas',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Humas',
+		price: [ 2 ]
+	},
+
+	{
+		name: 'Albacora',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Albacora',
+		price: [ 6 ]
+	},
+
+	{
+		name: 'Boss Revolution Calling Card',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Boss Revolution Calling Card',
+		price: [ 2, 5 ]
+	},
+
+	{
+		name: 'Beverages',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Beverages',
+		price: [ 1, 2, 3 ]
+	},
+
+	{
+		name: 'Copies',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Copies',
+		price: [ 1 ]
+	},
+
+	{
+		name: 'Electronics',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Electronics',
+		price: [ 'Varies per item' ]
+	},
+
+	{
+		name: 'Smart Phones',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Smart Phones',
+		price: [ 'Varies per phone' ]
+	},
+
+	{
+		name: 'Apparel',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		image: [ Mask1, Mask2, Mask3 ],
+		alt: 'Apparel',
+		price: [ 'Varies per item' ]
 	}
 ];
 
