@@ -2,6 +2,9 @@
 import Phone from '../images/phone.png';
 import Payment from '../images/pay.png';
 import Money from '../images/money.png';
+import MoneyOrder from '../images/moneyorder.png';
+import Receiving from '../images/receive.png';
+import CashCheck from '../images/cashcheck.png';
 
 export const Products = [
 	{
@@ -87,7 +90,7 @@ export const Services = {
 	MONEY_ORDER: {
 		name: 'Money Order',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-		image: 'https://designshack.net/wp-content/uploads/placeholder-image.png',
+		image: MoneyOrder,
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -112,7 +115,7 @@ export const Services = {
 	RECEIVE_MONEY: {
 		name: 'Receive Money',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-		image: 'https://designshack.net/wp-content/uploads/placeholder-image.png',
+		image: Receiving,
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
@@ -137,7 +140,7 @@ export const Services = {
 	CASH_CHECKS: {
 		name: 'Cash Checks',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-		image: 'https://designshack.net/wp-content/uploads/placeholder-image.png',
+		image: CashCheck,
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 

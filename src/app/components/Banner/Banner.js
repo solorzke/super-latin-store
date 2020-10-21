@@ -6,7 +6,7 @@ import Stormfront from '../../images/store.jpg';
 
 const Banner = ({ title, subtitle }) => {
 	return (
-		<div className="wrap" style={{ fontFamily: "'Bebas Neue', cursive" }}>
+		<div className="wrap">
 			<div className="banner-bg" style={{ backgroundImage: `url(${Stormfront})` }}>
 				<Container fluid>
 					<h1 className="banner-heading">
