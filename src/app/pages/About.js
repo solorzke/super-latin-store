@@ -1,11 +1,13 @@
 import React, { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Container, Jumbotron, Button } from 'react-bootstrap';
+import { Container, Jumbotron } from 'react-bootstrap';
 import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
+import Button from '../components/Button/Button';
 import { Services } from '../data/Products';
 import { ProductGrid } from '../components/Product/Product';
+import { Zoom } from 'react-reveal';
 
 const AboutPage = () => {
 	const location = useLocation();
@@ -20,17 +22,19 @@ const AboutPage = () => {
 	return (
 		<div>
 			<Navbar active="About" />
-			<Banner title="This is a title" subtitle="this is a subtitle" />
+			<Banner title="Super Latin Store" subtitle="About Us" />
 			<Container>
 				<header>
-					<h2 className="banner-text">
-						We’re a group of creative thinkers who have built a business to change the world.
-					</h2>
+					<div className="quote">
+						<h2 className="banner-text">
+							We’re a group of creative thinkers who have built a business to change the world.
+						</h2>
+					</div>
 				</header>
 				<hr />
 			</Container>
 			<Container>
-				<article>
+				<article className="summary">
 					<p>
 						Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
 						live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
@@ -57,7 +61,9 @@ const AboutPage = () => {
 			<Container>
 				<p className="banner-text">What We Are Best At</p>
 				<h2 className="banner-text">Our Services</h2>
-				<ProductGrid data={Services} type="point" />
+				<Zoom left>
+					<ProductGrid data={Services} type="point" />
+				</Zoom>
 			</Container>
 			<Container fluid>
 				<Jumbotron>
@@ -67,7 +73,7 @@ const AboutPage = () => {
 						blow your customers away.
 					</p>
 					<p className="banner-text">
-						<Button variant="primary">Learn more</Button>
+						<Button label="Learn More" />
 					</p>
 				</Jumbotron>
 			</Container>

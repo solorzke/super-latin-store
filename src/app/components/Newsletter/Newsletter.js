@@ -28,13 +28,13 @@ const Newsletter = () => {
 				>
 					<InputGroup size="sm">
 						<FormControl
-							placeholder="Enter your email address"
+							placeholder="Sign Up with your email address"
 							aria-label="Recipient's email address"
 							aria-describedby="basic-addon2"
 							ref={INPUT_EMAIL}
 						/>
 						<InputGroup.Append>
-							<Button variant="outline-secondary">Button</Button>
+							<Button variant="outline-secondary">Subscribe</Button>
 						</InputGroup.Append>
 					</InputGroup>
 				</div>
