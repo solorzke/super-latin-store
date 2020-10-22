@@ -10,7 +10,7 @@ import { Container } from 'react-bootstrap';
 
 const ProductsPage = () => {
 	const location = useLocation();
-	const [ tab, setTab ] = useState('services');
+	const [ tab, setTab ] = useState('products');
 	// Scroll to top if path changes
 	useLayoutEffect(
 		() => {
@@ -27,10 +27,14 @@ const ProductsPage = () => {
 				<div className="categories">
 					<Nav activeKey={tab} onSelect={(selectedTab) => setTab(selectedTab)}>
 						<Nav.Item>
-							<Nav.Link eventKey="products">Products</Nav.Link>
+							<Nav.Link eventKey="products">
+								<p className={tab === 'products' ? 'tab' : 'none'}>Products</p>
+							</Nav.Link>
 						</Nav.Item>
 						<Nav.Item>
-							<Nav.Link eventKey="services">Services</Nav.Link>
+							<Nav.Link eventKey="services">
+								<p className={tab === 'services' ? 'tab' : 'none'}>Services</p>
+							</Nav.Link>
 						</Nav.Item>
 					</Nav>
 				</div>
