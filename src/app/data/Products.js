@@ -8,87 +8,112 @@ import CashCheck from '../images/cashcheck.png';
 import Mask1 from '../images/masks/1.png';
 import Mask2 from '../images/masks/2.png';
 import Mask3 from '../images/masks/3.png';
+import Phone1 from '../images/phones/1.png';
+import Phone2 from '../images/phones/2.png';
+import Phone3 from '../images/phones/3.png';
+import Ele1 from '../images/electronics/1.png';
+import Ele2 from '../images/electronics/2.png';
+import Ele3 from '../images/electronics/3.png';
 
 export const Products = [
 	{
 		name: 'COVID-19 Masks',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
 		images: [ Mask1, Mask2, Mask3 ],
 		image: Mask1,
 		alt: 'Masks',
-		price: [ 1, 10, 15 ]
+		price: [ 1, 10, 15 ],
+		available: true
 	},
 
 	{
 		name: 'Humas',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
 		images: [ Mask1, Mask2, Mask3 ],
 		image: Mask1,
 		alt: 'Humas',
-		price: [ 2 ]
+		price: [ 2 ],
+		//0, 5, 6 === Sun, Friday, Sat
+		available: [ 0, 5, 6 ].includes(new Date().getDay())
 	},
 
 	{
 		name: 'Albacora',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
 		images: [ Mask1, Mask2, Mask3 ],
 		image: Mask1,
 		alt: 'Albacora',
-		price: [ 6 ]
+		price: [ 6 ],
+		available: true
 	},
 
 	{
 		name: 'Boss Revolution Calling Card',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
 		images: [ Mask1, Mask2, Mask3 ],
 		image: Mask1,
 		alt: 'Boss Revolution Calling Card',
-		price: [ 2, 5 ]
+		price: [ 2, 5 ],
+		available: true
 	},
 
 	{
 		name: 'Beverages',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
 		images: [ Mask1, Mask2, Mask3 ],
 		image: Mask1,
 		alt: 'Beverages',
-		price: [ 1, 2, 3 ]
+		price: [ 1, 2, 3 ],
+		available: true
 	},
 
 	{
 		name: 'Copies',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
 		images: [ Mask1, Mask2, Mask3 ],
 		image: Mask1,
 		alt: 'Copies',
-		price: [ 1 ]
+		price: [ 1 ],
+		available: true
 	},
 
 	{
 		name: 'Electronics',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		images: [ Mask1, Mask2, Mask3 ],
-		image: Mask1,
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		images: [ Ele1, Ele2, Ele3 ],
+		image: Ele1,
 		alt: 'Electronics',
-		price: [ 'Varies per item' ]
+		price: [ 'Varies per item' ],
+		available: true
 	},
 
 	{
 		name: 'Smart Phones',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		images: [ Mask1, Mask2, Mask3 ],
-		image: Mask1,
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		images: [ Phone1, Phone2, Phone3 ],
+		image: Phone3,
 		alt: 'Smart Phones',
-		price: [ 'Varies per phone' ]
+		price: [ 'Varies per phone' ],
+		available: true
 	},
 
 	{
 		name: 'Apparel',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
 		images: [ Mask1, Mask2, Mask3 ],
 		image: Mask1,
 		alt: 'Apparel',
-		price: [ 'Varies per item' ]
+		price: [ 'Varies per item' ],
+		available: true
 	}
 ];
 

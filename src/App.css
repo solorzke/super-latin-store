@@ -49,3 +49,48 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
   height: 500px;
 }
+
+.product-info {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  line-height: 2;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.product-info > * {
+  padding-bottom: 20px;
+}
+
+.product-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-image {
+  text-align: center;
+  max-width: auto;
+  cursor: pointer;
+}
+
+.preview-image:hover {
+  box-shadow: 0 0 10px #F08700;
+  border: none
+}
+
+.product-img {
+  text-align: center;
+  width: auto;
+  height: 400px;
+}
+
+.product-img-div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}

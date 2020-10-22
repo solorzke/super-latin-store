@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Product.css';
 import { Link } from 'react-router-dom';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Figure } from 'react-bootstrap';
 
 export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
 	const path = data.hasOwnProperty('price') ? '/products/product' : 'products/service';
@@ -62,18 +62,25 @@ export const Point = ({ data }) => {
 	);
 };
 
-export const ProductList = ({ data }) => {
-	return (
-		<Link to={{ pathname: '/products/product', state: data }}>
-			<h1>sfd</h1>
-		</Link>
-	);
-};
-
-export const ListItem = ({ data }) => {
-	return (
-		<Link to={{ pathname: '/products/product', state: data }}>
-			<Col />
-		</Link>
-	);
+export const PreviewSlider = ({ data, onClick, active }) => {
+	const changeStyle = (index) => {
+		const style = {
+			active: {
+				boxShadow: '0 0 10px #F08700',
+				border: 'none'
+			}
+		};
+		return active === index ? style.active : {};
+	};
+	return data.images.map((item, index) => {
+		return (
+			<Col key={index}>
+				<div className="preview-image" onClick={() => onClick(index)} style={changeStyle(index)}>
+					<Figure>
+						<Figure.Image alt="171x180" src={item} style={{ maxWidth: '100%', height: 100 }} />
+					</Figure>
+				</div>
+			</Col>
+		);
+	});
 };
