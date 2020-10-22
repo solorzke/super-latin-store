@@ -8,6 +8,7 @@ import Button from '../components/Button/Button';
 import { Services } from '../data/Products';
 import { ProductGrid } from '../components/Product/Product';
 import { Zoom } from 'react-reveal';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 const AboutPage = () => {
 	const location = useLocation();
@@ -25,11 +26,15 @@ const AboutPage = () => {
 			<Banner title="Super Latin Store" subtitle="About Us" />
 			<Container>
 				<header>
-					<div className="quote">
-						<h2 className="banner-text">
-							We’re a group of creative thinkers who have built a business to change the world.
-						</h2>
-					</div>
+					<ParallaxProvider>
+						<Parallax className="custom-class" y={[ -60, 60 ]} tagOuter="figure">
+							<div className="quote">
+								<h2 className="banner-text">
+									We’re a group of creative thinkers who have built a business to change the world.
+								</h2>
+							</div>
+						</Parallax>
+					</ParallaxProvider>
 				</header>
 				<hr />
 			</Container>
