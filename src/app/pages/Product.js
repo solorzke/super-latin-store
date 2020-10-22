@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Row, Col, Figure, Badge } from 'react-bootstrap';
+import React, { useLayoutEffect, useState } from 'react';
+import { Container, Row, Col, Badge } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer/Footer';
@@ -9,8 +9,16 @@ const ProductPage = () => {
 	const [ currentImage, setCurrentImage ] = useState(0);
 	const data = useLocation().state;
 	const length = data.price.length;
-	const price_range = length >= 2 ? `${data.price[0]} - ${data.price[length - 1]}` : data.price[0];
+	const price_range = length >= 2 ? `${data.price[0]} - ${data.price[length - 1]}` : data.price[0].toString();
 	const onClick = (index) => setCurrentImage(index);
+
+	// Scroll to top if path changes
+	useLayoutEffect(
+		() => {
+			window.scrollTo(0, 0);
+		},
+		[ useLocation().pathname ]
+	);
 
 	return (
 		<div>
