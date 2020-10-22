@@ -26,7 +26,9 @@ const Navigation = () => {
 						<h6 style={{ width: '60%', paddingTop: 10, paddingBottom: 10 }}>
 							Fast Express Shipping Across Multiple Locations!
 						</h6>
+						<h6>Connect With Us</h6>
 						<Row>
+							
 							<Col>
 								<a href="mailto:marcoasolorzano@gmail.com">
 									<i className="far fa-envelope footer-icon" />

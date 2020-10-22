@@ -14,6 +14,10 @@ import Phone3 from '../images/phones/3.png';
 import Ele1 from '../images/electronics/1.png';
 import Ele2 from '../images/electronics/2.png';
 import Ele3 from '../images/electronics/3.png';
+import Huma1 from '../images/humitas/1.png';
+import Apparel1 from '../images/apparel/1.png';
+import Apparel2 from '../images/apparel/2.png';
+import Apparel3 from '../images/apparel/3.png';
 
 export const Products = [
 	{
@@ -28,12 +32,12 @@ export const Products = [
 	},
 
 	{
-		name: 'Humas',
+		name: 'Humitas',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-		images: [ Mask1, Mask2, Mask3 ],
-		image: Mask1,
-		alt: 'Humas',
+		images: [ Huma1, Huma1, Huma1 ],
+		image: Huma1,
+		alt: 'Humitas',
 		price: [ 2 ],
 		//0, 5, 6 === Sun, Friday, Sat
 		available: [ 0, 5, 6 ].includes(new Date().getDay())
@@ -109,8 +113,8 @@ export const Products = [
 		name: 'Apparel',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-		images: [ Mask1, Mask2, Mask3 ],
-		image: Mask1,
+		images: [ Apparel1, Apparel2, Apparel3 ],
+		image: Apparel2,
 		alt: 'Apparel',
 		price: [ 'Varies per item' ],
 		available: true
