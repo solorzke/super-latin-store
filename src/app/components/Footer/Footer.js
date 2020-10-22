@@ -40,7 +40,7 @@ const Navigation = () => {
 							</Col>
 						</Row>
 					</div>
-					<Col md={{ span: 4, offset: 5 }}>
+					<Col md={{ span: 4 }}>
 						<Table borderless responsive="md">
 							<thead>
 								<tr>
@@ -75,6 +75,18 @@ const Navigation = () => {
 								</tr>
 							</tbody>
 						</Table>
+					</Col>
+					<Col md={{span: 5}}>
+						<iframe 
+							src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12094.36566737324!2d-74.1550022!3d40.7270102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7e65b01b4f091cd!2sSuper%20Latin%20Store%20LLC!5e0!3m2!1sen!2sus!4v1603314544128!5m2!1sen!2sus" 
+							width="100%" 
+							height="100%" 
+							frameBorder="0" 
+							style={{ border: 0 }}
+							allowFullScreen="" 
+							aria-hidden="false" 
+							tabIndex="0" 
+						/>
 					</Col>
 				</Row>
 			</Container>
