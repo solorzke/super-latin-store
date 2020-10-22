@@ -8,6 +8,8 @@ import { Container, Row, Col, Pagination } from 'react-bootstrap';
 import { Summary } from '../data/Summary';
 import { Services } from '../data/Products';
 import { Fade, Zoom } from 'react-reveal';
+import { ServiceBars } from '../components/Tabs/Main';
+import { ServiceText, Label } from '../data/Goals';
 
 const HomePage = () => {
 	const [ chevron, setChevron ] = useState('left');
@@ -72,6 +74,7 @@ const HomePage = () => {
 					</Container>
 				</Fade>
 			</section>
+			<ServiceBars label={Label} data={ServiceText} name="piece-light" size={500} />
 			<Newsletter />
 			<Footer />
 		</div>
