@@ -29,7 +29,7 @@ const HomePage = () => {
 	return (
 		<div>
 			<Navbar active="Home" />
-			<Banner title="Super Latin Store" subtitle="Newark, NJ" />
+			<Banner title="Super Latin Store" subtitle="Newark, NJ" hideBtn={false} />
 			<section>
 				<Zoom left>
 					<Container>

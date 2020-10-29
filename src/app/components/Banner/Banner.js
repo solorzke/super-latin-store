@@ -5,7 +5,14 @@ import Button from '../Button/Button';
 import Stormfront from '../../images/store.jpg';
 import { Bounce } from 'react-reveal';
 
-const Banner = ({ title, subtitle }) => {
+const Banner = ({ title, subtitle, hideBtn }) => {
+	const BannerButton = () => {
+		return (
+			<div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
+				<Button label="Learn More" />
+			</div>
+		);
+	};
 	return (
 		<div className="wrap">
 			<div className="banner-bg" style={{ backgroundImage: `url(${Stormfront})` }}>
@@ -17,9 +24,7 @@ const Banner = ({ title, subtitle }) => {
 						<h4 className="banner-heading">
 							<strong>{subtitle}</strong>
 						</h4>
-						<div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
-							<Button label="Learn More" />
-						</div>
+						{!hideBtn ? <BannerButton /> : <div />}
 					</Bounce>
 				</Container>
 			</div>

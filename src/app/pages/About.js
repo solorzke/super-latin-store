@@ -1,10 +1,11 @@
 import React, { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Container, Jumbotron } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
 import Button from '../components/Button/Button';
+import Bills from '../images/bills.jpg';
 import { Services } from '../data/Products';
 import { ProductGrid } from '../components/Product/Product';
 import { Zoom } from 'react-reveal';
@@ -23,7 +24,7 @@ const AboutPage = () => {
 	return (
 		<div>
 			<Navbar active="About" />
-			<Banner title="Super Latin Store" subtitle="About Us" />
+			<Banner title="Super Latin Store" subtitle="About Us" hideBtn={true} />
 			<Container>
 				<header>
 					<ParallaxProvider>
@@ -70,21 +71,26 @@ const AboutPage = () => {
 					<ProductGrid data={Services} type="point" />
 				</Zoom>
 			</Container>
-			<Container fluid>
-				<Jumbotron>
-					<h1 className="banner-text">Grow your business.</h1>
-					<p className="banner-text">
-						Today is the day to build the business of your dreams. Share your mission with the world — and
-						blow your customers away.
-					</p>
-					<p className="banner-text">
-						<Button label="Learn More" />
-					</p>
-				</Jumbotron>
-			</Container>
+			<div className="wrap">
+				<div className="section-bg" style={{ backgroundImage: `url(${Bills})` }}>
+					<Container fluid>
+						<h1 className="section-heading">Grow your business.</h1>
+						<p className="section-heading">
+							Today is the day to build the business of your dreams. Share your mission with the world —
+							and blow your customers away.
+						</p>
+						<p className="section-heading">
+							<Button label="Learn More" />
+						</p>
+					</Container>
+				</div>
+			</div>
+
 			<Footer />
 		</div>
 	);
 };
+
+const style = {};
 
 export default AboutPage;
