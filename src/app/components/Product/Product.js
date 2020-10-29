@@ -72,9 +72,10 @@ export const PreviewSlider = ({ data, onClick, active }) => {
 		};
 		return active === index ? style.active : {};
 	};
+
 	return data.images.map((item, index) => {
 		return (
-			<Col key={index}>
+			<Col key={index} md={{ span: 3 }}>
 				<div className="preview-image" onClick={() => onClick(index)} style={changeStyle(index)}>
 					<Figure>
 						<Figure.Image alt="171x180" src={item} style={{ maxWidth: '100%', height: 100 }} />
