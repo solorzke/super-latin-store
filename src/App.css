@@ -19,6 +19,36 @@ section {
   padding: 10px;
 }
 
+.section-heading {
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.section-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #000;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.section-bg:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+}
+
 a {
   color: #7392B7;
 }
@@ -97,4 +127,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .tab {
   color: #F08700;
+}
+
+.location {
+  height: auto;
+  width: 100%;
+}
+
+.location-info > * {
+  padding: 30px
+}
+
+.social-media {
+  font-size: 30px;
+  padding-right: 10px;
+  color: #7392B7
+}
+
+.social-media:hover {
+  color: #F08700
 }

@@ -15,7 +15,7 @@ export const Links = [
 	},
 
 	{
-		name: 'Contact',
-		path: '/contact'
+		name: 'Location',
+		path: '/Location'
 	}
 ];
