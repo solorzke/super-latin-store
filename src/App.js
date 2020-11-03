@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Responsive.css';
 import { Route, Switch } from 'react-router-dom';
 import Home from './app/pages/Home';
 import About from './app/pages/About';

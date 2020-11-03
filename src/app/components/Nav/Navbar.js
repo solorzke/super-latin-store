@@ -15,7 +15,7 @@ const Bar = ({ active }) => {
 		<Navbar style={{ backgroundColor: '#7392B7', fontFamily: "'Bebas Neue', cursive" }} expand="lg" variant="dark">
 			<Col>
 				<Navbar.Brand href="/">
-					<span style={{ fontSize: 30 }}>
+					<span className="nav-brand">
 						<i className="fas fa-shipping-fast brand" /> Super Latin Store
 					</span>
 				</Navbar.Brand>

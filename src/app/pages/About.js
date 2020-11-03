@@ -91,6 +91,4 @@ const AboutPage = () => {
 	);
 };
 
-const style = {};
-
 export default AboutPage;

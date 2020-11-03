@@ -30,6 +30,9 @@ const HomePage = () => {
 		<div>
 			<Navbar active="Home" />
 			<Banner title="Super Latin Store" subtitle="Newark, NJ" hideBtn={false} />
+			<main>
+				<rssapp-wall style={{ fontFamily: `Arial, Helvetica, sans-serif` }} id="CReEemRa9lbFqG24" />
+			</main>
 			<section>
 				<Zoom left>
 					<Container>

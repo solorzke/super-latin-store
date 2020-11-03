@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './Banner.css';
+import '../../../Responsive.css';
 import Button from '../Button/Button';
 import Stormfront from '../../images/store.jpg';
 import { Bounce } from 'react-reveal';
@@ -8,7 +9,7 @@ import { Bounce } from 'react-reveal';
 const Banner = ({ title, subtitle, hideBtn }) => {
 	const BannerButton = () => {
 		return (
-			<div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center' }}>
+			<div className="banner-btn">
 				<Button label="Learn More" />
 			</div>
 		);
