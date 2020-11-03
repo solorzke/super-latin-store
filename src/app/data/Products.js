@@ -165,7 +165,7 @@ export const Services = {
 	},
 
 	PAY_BILL: {
-		name: 'Pay Bill',
+		name: 'Pay Bills',
 		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
 		image: Payment,
 		images: [ Money10, Money11 ],
@@ -187,7 +187,7 @@ export const Services = {
 	},
 
 	BOOST_RECHARGE: {
-		name: 'Boost Mobile Recharge',
+		name: 'Phone Recharges',
 		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
 		image: Phone,
 		images: [ Money8, Money9 ],
