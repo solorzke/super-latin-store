@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
@@ -13,6 +13,21 @@ import { ServiceText, Label } from '../data/Goals';
 
 const HomePage = () => {
 	const [ chevron, setChevron ] = useState('left');
+	const [ adjust, setAdjust ] = useState(false);
+	useEffect(() => {
+		window.innerWidth < 500 ? setAdjust(true) : setAdjust(false);
+		const handleResize = () => {
+			switch (window.innerWidth < 500) {
+				case true:
+					if (!adjust) setAdjust(true);
+					break;
+				case false:
+					if (adjust) setAdjust(false);
+					break;
+			}
+		};
+		window.addEventListener('resize', handleResize);
+	});
 	const servicesPane = [
 		<Row>
 			<ProductCard data={Services.SEND_MONEY} pos="center center" />
@@ -68,7 +83,7 @@ const HomePage = () => {
 						<Row>
 							{Summary.about.map((item, index) => {
 								return (
-									<Col key={index}>
+									<Col key={index} md={adjust ? 12 : 6}>
 										<p className="summary">{item}</p>
 									</Col>
 								);
