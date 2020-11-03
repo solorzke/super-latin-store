@@ -30,14 +30,17 @@ const Navigation = () => {
 						<h6>Connect With Us</h6>
 						<Row>
 							<Col>
-								<a href="mailto:marcoasolorzano@gmail.com">
+								<a href="mailto:superlatinstore@outlook.com">
 									<i className="far fa-envelope footer-icon" />
 								</a>
-								<Link to="#">
+								<a href="tel:+9739913030">
 									<i className="fas fa-phone footer-icon" />{' '}
-								</Link>
+								</a>
 								<a href="https://www.facebook.com" target="_blank">
 									<i className="fab fa-facebook-f footer-icon" />{' '}
+								</a>
+								<a href="#instagram">
+									<i className="fab fa-instagram footer-icon" />
 								</a>
 							</Col>
 						</Row>
