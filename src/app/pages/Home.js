@@ -15,14 +15,14 @@ const HomePage = () => {
 	const [ chevron, setChevron ] = useState('left');
 	const servicesPane = [
 		<Row>
-			<ProductCard data={Services.SEND_MONEY} />
-			<ProductCard data={Services.PAY_BILL} />
-			<ProductCard data={Services.BOOST_RECHARGE} />
+			<ProductCard data={Services.SEND_MONEY} pos="center center" />
+			<ProductCard data={Services.PAY_BILL} pos="center center" />
+			<ProductCard data={Services.BOOST_RECHARGE} pos="center center" />
 		</Row>,
 		<Row>
-			<ProductCard data={Services.CASH_CHECKS} />
-			<ProductCard data={Services.MONEY_ORDER} />
-			<ProductCard data={Services.RECEIVE_MONEY} />
+			<ProductCard data={Services.CASH_CHECKS} pos="center center" />
+			<ProductCard data={Services.MONEY_ORDER} pos="center center" />
+			<ProductCard data={Services.RECEIVE_MONEY} pos="center center" />
 		</Row>
 	];
 

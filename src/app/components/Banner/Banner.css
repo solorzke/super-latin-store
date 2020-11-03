@@ -1,38 +1,7 @@
-.banner-bg {
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    color: #000;
-    height: 90vh;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-start;
-    align-items: flex-end;
-    display: flex;
-    padding-bottom: 20px;
-}
-
-.banner-bg:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.7);
-}
-
 .wrap {
     width: 100%;
 }
 
 .banner-text {
     text-align: center;
-}
-
-.banner-heading {
-    text-align: start;
-    font-size: 75px;
-    color: #fff;
-    position: relative;
 }

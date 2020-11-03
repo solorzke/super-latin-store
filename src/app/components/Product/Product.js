@@ -4,17 +4,40 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Container, Figure } from 'react-bootstrap';
 
 export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
+	const [ columns, setColumns ] = useState(4);
+	const [ tablet, setTablet ] = useState(false);
+
+	useEffect(() => {
+		window.innerWidth < 500 ? setColumns(12) : setColumns(4);
+		window.innerWidth < 769 && window.innerWidth > 500 ? setTablet(true) : setTablet(false);
+
+		const handleResize = () => {
+			switch (window.innerWidth) {
+				case window.innerWidth < 500:
+					if (columns !== 12) setColumns(12);
+					break;
+				case window.innerWidth > 500 && window.innerWidth < 769:
+					if (columns !== 4) setColumns(4);
+					if (!tablet) setTablet(true);
+					break;
+				case window.innerWidth > 769:
+					if (tablet) setTablet(false);
+					break;
+			}
+		};
+		window.addEventListener('resize', handleResize);
+	});
 	const path = data.hasOwnProperty('price') ? '/products/product' : 'products/service';
 	return (
-		<Col>
+		<Col md={columns}>
 			<Link to={{ pathname: path, state: data }}>
 				<div
 					className="product-card"
 					style={{
 						backgroundImage: `url(${data.image})`,
-						width: width,
-						height: height,
-						backgroundPosition: pos
+						width: columns === 4 ? width : 'auto',
+						height: columns === 4 ? height : 300,
+						backgroundPosition: columns === 4 ? pos : 'center top'
 					}}
 				>
 					<h2>{data.name}</h2>

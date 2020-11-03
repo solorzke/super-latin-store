@@ -1,0 +1,27 @@
+/* iPhone X screens: 375 x 812 */
+@media screen and (max-width: 375px) {
+    .nav-brand {
+        font-size: 25px;
+    }
+}
+
+
+/* iPhone 6/7/8 PLUS screens: 414 x 736
+    & iPhone X screens: 375 x 812
+*/
+@media screen and (max-width: 414px) {
+    .banner-heading {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .banner-bg {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .banner-btn {
+        justify-content: center;
+    }
+}
