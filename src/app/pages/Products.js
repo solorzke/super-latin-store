@@ -11,6 +11,7 @@ import { Container } from 'react-bootstrap';
 const ProductsPage = () => {
 	const location = useLocation();
 	const [ tab, setTab ] = useState('products');
+
 	// Scroll to top if path changes
 	useLayoutEffect(
 		() => {
@@ -23,7 +24,7 @@ const ProductsPage = () => {
 		<div>
 			<Navbar active="Products" />
 			<header style={{ padding: '5%' }}>
-				<h1 className="banner-text">Our Offerings</h1>
+				<h1 className="banner-text">Our {tab.charAt(0).toUpperCase() + tab.slice(1)}</h1>
 				<div className="categories">
 					<Nav activeKey={tab} onSelect={(selectedTab) => setTab(selectedTab)}>
 						<Nav.Item>
@@ -40,8 +41,8 @@ const ProductsPage = () => {
 				</div>
 			</header>
 			<Container>
-				{tab === 'services' && <ProductGrid data={Services} type="card" />}
-				{tab === 'products' && <ProductGrid data={Products} type="card" pos="center top" />}
+				{tab === 'services' && <ProductGrid data={Services} type="card" pos="50% 25%" />}
+				{tab === 'products' && <ProductGrid data={Products} type="card" pos="50% 25%" />}
 			</Container>
 			<Newsletter />
 			<Footer />

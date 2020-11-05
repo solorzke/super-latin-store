@@ -41,7 +41,7 @@ export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
 					}}
 				>
 					<h2>{data.name}</h2>
-					<p>{data.description}</p>
+					<p>{data.tagline}</p>
 				</div>
 			</Link>
 		</Col>
@@ -49,7 +49,13 @@ export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
 };
 
 export const ProductGrid = ({ data, type, width = 'auto', height = 500, pos = 'center top' }) => {
+	const [ fluid, setFluid ] = useState(false);
 	const services = Object.keys(data);
+
+	const f = (bool) => {
+		setFluid(bool);
+	};
+
 	const returnRows = () => {
 		let rows = [];
 		while (services.length > 0) {
@@ -58,7 +64,7 @@ export const ProductGrid = ({ data, type, width = 'auto', height = 500, pos = 'c
 				const key = services.pop();
 				const gridPoint =
 					type === 'point' ? (
-						<Point data={data[key]} />
+						<Point data={data[key]} setFluid={f.bind(this)} />
 					) : (
 						<ProductCard data={data[key]} width={width} height={height} pos={pos} />
 					);
@@ -68,12 +74,34 @@ export const ProductGrid = ({ data, type, width = 'auto', height = 500, pos = 'c
 		}
 		return rows;
 	};
-	return <Container>{returnRows()}</Container>;
+	return <Container fluid={fluid}>{returnRows()}</Container>;
 };
 
-export const Point = ({ data }) => {
+export const Point = ({ data, setFluid }) => {
+	const [ columns, setColumns ] = useState(4);
+	useEffect(() => {
+		window.innerWidth < 414 ? setColumns(12) : setColumns(4);
+		const handleResize = () => {
+			switch (window.innerWidth < 414) {
+				case true:
+					if (columns === 4) {
+						setColumns(12);
+						setFluid(true);
+					}
+					break;
+				case false:
+					if (columns === 12) {
+						setColumns(4);
+						setFluid(false);
+					}
+					break;
+			}
+		};
+		window.addEventListener('resize', handleResize);
+	});
+
 	return (
-		<Col>
+		<Col md={columns}>
 			<Link to={{ pathname: '/products/service', state: data }}>
 				<div className="product-grid-point">
 					<img src={data.image} height="50" width="50" alt={data.name} />

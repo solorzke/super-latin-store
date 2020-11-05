@@ -49,7 +49,8 @@ export const Products = [
 		image: Mask1,
 		alt: 'Masks',
 		price: [ 1, 10, 15 ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -61,7 +62,8 @@ export const Products = [
 		alt: 'Humitas',
 		price: [ 2 ],
 		//0, 5, 6 === Sun, Friday, Sat
-		available: [ 0, 5, 6 ].includes(new Date().getDay())
+		available: [ 0, 5, 6 ].includes(new Date().getDay()),
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -72,7 +74,8 @@ export const Products = [
 		image: Fish2,
 		alt: 'Albacora',
 		price: [ 6 ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -83,7 +86,8 @@ export const Products = [
 		image: Card1,
 		alt: 'Calling Cards',
 		price: [ 2, 5 ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -94,7 +98,8 @@ export const Products = [
 		image: Drink1,
 		alt: 'Beverages',
 		price: [ 1, 2, 3 ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -105,7 +110,8 @@ export const Products = [
 		image: Copies1,
 		alt: 'Copies',
 		price: [ 1 ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -116,7 +122,8 @@ export const Products = [
 		image: Ele1,
 		alt: 'Electronics',
 		price: [ 'Varies per item' ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -127,7 +134,8 @@ export const Products = [
 		image: Phone3,
 		alt: 'Smart Phones',
 		price: [ 'Varies per phone' ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	{
@@ -138,7 +146,8 @@ export const Products = [
 		image: Apparel2,
 		alt: 'Apparel',
 		price: [ 'Varies per item' ],
-		available: true
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	}
 ];
 
@@ -161,7 +170,8 @@ export const Services = {
 			suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
 			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
 		],
-		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ]
+		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	PAY_BILL: {
@@ -183,7 +193,8 @@ export const Services = {
 			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
 		],
 
-		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ]
+		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	BOOST_RECHARGE: {
@@ -205,7 +216,8 @@ export const Services = {
 			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
 		],
 
-		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ]
+		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	MONEY_ORDER: {
@@ -227,7 +239,8 @@ export const Services = {
 			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
 		],
 
-		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ]
+		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	RECEIVE_MONEY: {
@@ -249,7 +262,8 @@ export const Services = {
 			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
 		],
 
-		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ]
+		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
 	CASH_CHECKS: {
@@ -271,6 +285,7 @@ export const Services = {
 			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
 		],
 
-		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ]
+		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	}
 };
