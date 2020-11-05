@@ -187,3 +187,15 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: flex-start;
   align-items: center;
 }
+
+.newsletter-form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.quote-text {
+  text-align: center;
+}

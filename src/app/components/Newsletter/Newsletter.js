@@ -12,20 +12,12 @@ const Newsletter = () => {
 
 	return (
 		<section className="newsletter">
-			<Container>
+			<Container fluid>
 				<h2 className="banner-text">Monthly Newsletter</h2>
 				<p className="banner-text">
 					Sign Up to receive updates from our shop, including new tea selections and upcoming events
 				</p>
-				<div
-					style={{
-						justifyContent: 'center',
-						alignItems: 'center',
-						display: 'flex',
-						marginRight: '25%',
-						marginLeft: '25%'
-					}}
-				>
+				<div className="newsletter-form">
 					<InputGroup size="sm">
 						<FormControl
 							placeholder="Sign Up with your email address"
