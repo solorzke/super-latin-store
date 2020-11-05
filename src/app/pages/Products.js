@@ -23,7 +23,7 @@ const ProductsPage = () => {
 	return (
 		<div>
 			<Navbar active="Products" />
-			<header style={{ padding: '5%' }}>
+			<header style={{ padding: 30 }}>
 				<h1 className="banner-text">Our {tab.charAt(0).toUpperCase() + tab.slice(1)}</h1>
 				<div className="categories">
 					<Nav activeKey={tab} onSelect={(selectedTab) => setTab(selectedTab)}>
