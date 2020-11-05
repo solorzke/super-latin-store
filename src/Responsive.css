@@ -24,4 +24,28 @@
     .banner-btn {
         justify-content: center;
     }
+
+    .newsletter-form {
+        margin: 0
+    }
+
+    .product-img {
+        height: 200px
+    }
+
+    .preview-image {
+       width: 100px;
+       height: 50px;
+    }
+}
+
+/* 
+    iPhone 6//7/8 PLUS screens: 414 x 736
+    & iPhone X screens: 375 x 812
+    & iPad screens: 768 x 1024  
+*/
+@media screen and (max-width: 768px) {
+    .quote-text {
+        font-size: medium;
+    }
 }

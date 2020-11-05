@@ -114,25 +114,16 @@ export const Point = ({ data, setFluid }) => {
 };
 
 export const PreviewSlider = ({ data, onClick, active }) => {
-	const changeStyle = (index) => {
-		const style = {
-			active: {
-				boxShadow: '0 0 10px #F08700',
-				border: 'none'
-			}
-		};
-		return active === index ? style.active : {};
-	};
-
 	return data.images.map((item, index) => {
 		return (
-			<Col key={index} md={{ span: 3 }}>
-				<div className="preview-image" onClick={() => onClick(index)} style={changeStyle(index)}>
-					<Figure>
-						<Figure.Image alt="171x180" src={item} style={{ maxWidth: '100%', height: 100 }} />
-					</Figure>
-				</div>
-			</Col>
+			<div
+				className={`preview-image ${active === index ? 'preview-image-active' : ''}`}
+				onClick={() => onClick(index)}
+			>
+				<Figure>
+					<Figure.Image alt="171x180" src={item} style={{ maxWidth: '100%', height: 50 }} />
+				</Figure>
+			</div>
 		);
 	});
 };
