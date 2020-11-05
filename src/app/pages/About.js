@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react';
+import React, { useLayoutEffect, useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Navbar from '../components/Nav/Navbar';
@@ -13,6 +13,8 @@ import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 const AboutPage = () => {
 	const location = useLocation();
+	const [ adjust, setAdjust ] = useState(false);
+	const [ y, setY ] = useState([ -60, 60 ]);
 	// Scroll to top if path changes
 	useLayoutEffect(
 		() => {
@@ -21,6 +23,27 @@ const AboutPage = () => {
 		[ location.pathname ]
 	);
 
+	useEffect(() => {
+		const handleResize = () => {
+			switch (window.innerWidth < 768) {
+				case true:
+					if (!adjust) {
+						setY([ -10, 10 ]);
+						setAdjust(true);
+					}
+					break;
+				case false:
+					if (adjust) {
+						setY([ -60, 60 ]);
+						setAdjust(false);
+					}
+					break;
+			}
+		};
+		handleResize();
+		window.addEventListener('resize', handleResize);
+	});
+
 	return (
 		<div>
 			<Navbar active="About" />
@@ -28,9 +51,9 @@ const AboutPage = () => {
 			<Container>
 				<header>
 					<ParallaxProvider>
-						<Parallax className="custom-class" y={[ -60, 60 ]} tagOuter="figure">
+						<Parallax className="custom-class" y={y} tagOuter="figure">
 							<div className="quote">
-								<h2 className="banner-text">
+								<h2 className="quote-text">
 									We’re a group of creative thinkers who have built a business to change the world.
 								</h2>
 							</div>
