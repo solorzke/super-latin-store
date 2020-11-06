@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container, Row, Col, Table } from 'react-bootstrap';
+import { Container, Row, Col, Table, Figure } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Services } from '../../data/Products';
+import Logo from '../../images/sls.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -23,7 +24,18 @@ const Navigation = () => {
 			<Container fluid>
 				<Row>
 					<div className="col-md-3 align-items-start d-flex flex-column">
-						<i className="fas fa-shipping-fast brand footer-brand" />
+						<Figure>
+							<Figure.Image
+								width={100}
+								height={100}
+								alt="logo"
+								src={Logo}
+								style={{
+									backgroundColor: '#fff',
+									borderRadius: 5
+								}}
+							/>
+						</Figure>
 						<h6 style={{ width: '60%', paddingTop: 10, paddingBottom: 10 }}>
 							Fast &amp; Quality Service To Everyone!
 						</h6>

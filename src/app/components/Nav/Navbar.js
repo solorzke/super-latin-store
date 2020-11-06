@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, Col } from 'react-bootstrap';
 import { Links } from '../../data/Links';
+import Logo from '../../images/shape.png';
 
 const Bar = ({ active }) => {
 	const [ adjust, setAdjust ] = useState(false);
@@ -39,7 +40,7 @@ const Bar = ({ active }) => {
 				children={
 					<Navbar.Brand href="/">
 						<span className="nav-brand">
-							<i className="fas fa-shipping-fast brand" /> Super Latin Store
+							<img src={Logo} width="50" height="50" />Super Latin Store
 						</span>
 					</Navbar.Brand>
 				}

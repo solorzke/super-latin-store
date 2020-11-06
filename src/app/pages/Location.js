@@ -21,8 +21,13 @@ const LocationPage = () => {
 							</Col>
 							<Col>
 								<h2>Contact</h2>
-								<p>Phone: (999)-999-9999</p>
-								<p>Email: superlatinstore@gmail.com</p>
+								<p>
+									Phone:
+									<a href="tel:+9739913030">(973)-991-3030</a>
+								</p>
+								<p>
+									Email: <a href="mailto:superlatinstore@outlook.com">superlatinstore@outlook.com</a>
+								</p>
 							</Col>
 						</Row>
 						<Row>

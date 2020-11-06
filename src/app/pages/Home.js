@@ -7,7 +7,7 @@ import { ProductCard } from '../components/Product/Product';
 import { Container, Row, Col, Pagination } from 'react-bootstrap';
 import { Summary } from '../data/Summary';
 import { Services } from '../data/Products';
-import { Fade, Zoom } from 'react-reveal';
+import { Fade, LightSpeed } from 'react-reveal';
 import { ServiceBars } from '../components/Tabs/Main';
 import { ServiceText, Label } from '../data/Goals';
 
@@ -49,7 +49,7 @@ const HomePage = () => {
 				<rssapp-wall style={{ fontFamily: `Arial, Helvetica, sans-serif` }} id="CReEemRa9lbFqG24" />
 			</main>
 			<section>
-				<Zoom left>
+				<LightSpeed left>
 					<Container>
 						<h1 className="banner-text" style={{}}>
 							Featured Services
@@ -72,7 +72,7 @@ const HomePage = () => {
 							</Pagination>
 						</div>
 					</Container>
-				</Zoom>
+				</LightSpeed>
 			</section>
 			<section>
 				<Fade left>
