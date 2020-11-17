@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Table, Figure } from 'react-bootstrap';
+import { Container, Row, Col, Table, Figure, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Services } from '../../data/Products';
 import Logo from '../../images/sls.png';
+import USA from '../../images/usa.png';
+import ESP from '../../images/spain.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -56,6 +58,20 @@ const Navigation = () => {
 								</a>
 							</Col>
 						</Row>
+						<Row style={{ paddingTop: 10 }}>
+							<Col>
+								<Link to="/">
+									<Image src={USA} style={{ width: 20, height: 20 }} />
+									<p>Eng</p>
+								</Link>
+							</Col>
+							<Col>
+								<Link to="/">
+									<Image src={ESP} style={{ width: 20, height: 20 }} />
+									<p>Esp</p>
+								</Link>
+							</Col>
+						</Row>
 					</div>
 					<Col md={{ span: 4 }}>
 						<Table borderless responsive="md">
@@ -106,7 +122,7 @@ const Navigation = () => {
 								<tr>
 									<td>
 										<Link to={{ pathname: '/products/service', state: Services.RECEIVE_MONEY }}>
-											{Services.RECEIVE_MONEY.name}
+											{Services.PACKAGING.name}
 										</Link>
 									</td>
 								</tr>
