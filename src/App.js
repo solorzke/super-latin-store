@@ -13,8 +13,8 @@ function App() {
 	return (
 		<Switch>
 			<Route component={About} path="/about" />
-			<Route component={Service} path="/products/service" />
-			<Route component={Product} path="/products/product" />
+			<Route component={Service} path="/products/service/:service" />
+			<Route component={Product} path="/products/product/:product" />
 			<Route component={Products} path="/products" />
 			<Route component={Location} path="/location" />
 			<Route component={Home} path="/" />

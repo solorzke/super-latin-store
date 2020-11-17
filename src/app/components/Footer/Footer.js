@@ -50,10 +50,10 @@ const Navigation = () => {
 								<a href="tel:+9739913030">
 									<i className="fas fa-phone footer-icon" />{' '}
 								</a>
-								<a href="https://www.facebook.com" target="_blank">
+								<a href="https://www.facebook.com/SuperLatinStoreEC/" target="_blank">
 									<i className="fab fa-facebook-f footer-icon" />{' '}
 								</a>
-								<a href="#instagram">
+								<a href="https://www.instagram.com/superlatinstorellc" target="_blank">
 									<i className="fab fa-instagram footer-icon" />
 								</a>
 							</Col>
@@ -84,9 +84,7 @@ const Navigation = () => {
 							<tbody>
 								<tr>
 									<td>
-										<Link to={{ pathname: '/products/service', state: Services.BOOST_RECHARGE }}>
-											{Services.BOOST_RECHARGE.name}
-										</Link>
+										<Link to={Services.BOOST_RECHARGE.path}>{Services.BOOST_RECHARGE.name}</Link>
 									</td>
 									<td>
 										<Link to="/location">Location</Link>
@@ -94,9 +92,7 @@ const Navigation = () => {
 								</tr>
 								<tr>
 									<td>
-										<Link to={{ pathname: '/products/service', state: Services.CASH_CHECKS }}>
-											{Services.CASH_CHECKS.name}
-										</Link>
+										<Link to={Services.CASH_CHECKS.path}>{Services.CASH_CHECKS.name}</Link>
 									</td>
 									<td>
 										<Link to="/location">Office Hours</Link>
@@ -104,9 +100,7 @@ const Navigation = () => {
 								</tr>
 								<tr>
 									<td>
-										<Link to={{ pathname: '/products/service', state: Services.MONEY_ORDER }}>
-											{Services.MONEY_ORDER.name}
-										</Link>
+										<Link to={Services.MONEY_ORDER.path}>{Services.MONEY_ORDER.name}</Link>
 									</td>
 									<td>
 										<Link to="/location">Get Directions</Link>
@@ -114,23 +108,17 @@ const Navigation = () => {
 								</tr>
 								<tr>
 									<td>
-										<Link to={{ pathname: '/products/service', state: Services.PAY_BILL }}>
-											{Services.PAY_BILL.name}
-										</Link>
+										<Link to={Services.PAY_BILL.path}>{Services.PAY_BILL.name}</Link>
 									</td>
 								</tr>
 								<tr>
 									<td>
-										<Link to={{ pathname: '/products/service', state: Services.RECEIVE_MONEY }}>
-											{Services.PACKAGING.name}
-										</Link>
+										<Link to={Services.PACKAGING.path}>{Services.PACKAGING.name}</Link>
 									</td>
 								</tr>
 								<tr>
 									<td>
-										<Link to={{ pathname: '/products/service', state: Services.SEND_MONEY }}>
-											{Services.SEND_MONEY.name}
-										</Link>
+										<Link to={Services.SEND_MONEY.path}>{Services.SEND_MONEY.name}</Link>
 									</td>
 								</tr>
 							</tbody>

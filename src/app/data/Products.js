@@ -1,9 +1,9 @@
 //Images
-import Phone from '../images/phone.png';
-import Payment from '../images/pay.png';
-import Money from '../images/money.png';
+import BossRevolution from '../images/boss.png';
+import Payment from '../images/billing.png';
+import AFEX from '../images/afex.png';
 import MoneyOrder from '../images/moneyorder.png';
-import Receiving from '../images/receive.png';
+import Geomil from '../images/geomil.png';
 import CashCheck from '../images/cashcheck.png';
 import Mask1 from '../images/masks/1.png';
 import Mask2 from '../images/masks/2.png';
@@ -42,6 +42,7 @@ import Copies1 from '../images/copies/1.png';
 
 export const Products = [
 	{
+		path: '/products/product/masks',
 		name: 'COVID-19 Masks',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -54,6 +55,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/humitas',
 		name: 'Humitas',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -67,6 +69,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/albacora',
 		name: 'Albacora',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -79,6 +82,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/calling-cards',
 		name: 'Calling Cards',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -91,6 +95,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/beverages',
 		name: 'Beverages',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -103,6 +108,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/copies',
 		name: 'Copies',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -115,6 +121,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/electronics',
 		name: 'Electronics',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -127,6 +134,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/smart-phones',
 		name: 'Smart Phones',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -139,6 +147,7 @@ export const Products = [
 	},
 
 	{
+		path: '/products/product/apparel',
 		name: 'Apparel',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
@@ -153,9 +162,10 @@ export const Products = [
 
 export const Services = {
 	SEND_MONEY: {
+		path: '/products/service/send-money',
 		name: 'Send Money',
 		description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-		image: Money,
+		image: AFEX,
 		images: [ Money5, Money7 ],
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -175,6 +185,7 @@ export const Services = {
 	},
 
 	PAY_BILL: {
+		path: '/products/service/pay-bills',
 		name: 'Pay Bills',
 		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
 		image: Payment,
@@ -198,9 +209,10 @@ export const Services = {
 	},
 
 	BOOST_RECHARGE: {
+		path: '/products/service/recharge',
 		name: 'Phone Recharges',
 		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-		image: Phone,
+		image: BossRevolution,
 		images: [ Money8, Money9 ],
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -221,6 +233,7 @@ export const Services = {
 	},
 
 	MONEY_ORDER: {
+		path: '/products/service/money-order',
 		name: 'Money Order',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
 		image: MoneyOrder,
@@ -243,10 +256,11 @@ export const Services = {
 		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
 	},
 
-	RECEIVE_MONEY: {
-		name: 'Receive Money',
+	PACKAGING: {
+		path: '/products/service/packaging',
+		name: 'Packaging',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
-		image: Receiving,
+		image: Geomil,
 		images: [ Money3, Money2 ],
 		paragraphs: [
 			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -267,6 +281,7 @@ export const Services = {
 	},
 
 	CASH_CHECKS: {
+		path: '/products/service/cash-checks',
 		name: 'Cash Checks',
 		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
 		image: CashCheck,

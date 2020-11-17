@@ -37,7 +37,7 @@ const HomePage = () => {
 		<Row>
 			<ProductCard data={Services.CASH_CHECKS} pos="center center" />
 			<ProductCard data={Services.MONEY_ORDER} pos="center center" />
-			<ProductCard data={Services.RECEIVE_MONEY} pos="center center" />
+			<ProductCard data={Services.PACKAGING} pos="center center" />
 		</Row>
 	];
 

@@ -27,7 +27,7 @@ export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
 		};
 		window.addEventListener('resize', handleResize);
 	});
-	const path = data.hasOwnProperty('price') ? '/products/product' : 'products/service';
+	const path = data.path;
 	return (
 		<Col md={columns}>
 			<Link to={{ pathname: path, state: data }}>

@@ -1,14 +1,31 @@
 import React, { useLayoutEffect, useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
+import { Services } from '../data/Products';
 
 const ServicePage = () => {
+	const getService = ({ service }) => {
+		let obj = null;
+		const keys = Object.keys(Services);
+		for (let key of keys) {
+			const item = Services[key];
+			const path = item.path.substring(18);
+			console.log(path);
+			if (path === service) {
+				obj = item;
+				break;
+			}
+		}
+		return obj !== null ? obj : Services.SEND_MONEY;
+	};
+	const params = useParams();
 	const location = useLocation();
-	const paragraphs = location.state.paragraphs;
-	const images = location.state.images;
+	const service = params.hasOwnProperty('service') ? getService(params) : Services.PACKAGING;
+	const paragraphs = service.paragraphs;
+	const images = service.images;
 	const [ adjust, setAdjust ] = useState(false);
 
 	// Scroll to top if path changes
@@ -37,7 +54,7 @@ const ServicePage = () => {
 	return (
 		<div>
 			<Navbar active={'Products'} />
-			<Banner title="Services" subtitle={location.state.name} hideBtn={true} />
+			<Banner title="Services" subtitle={service.name} hideBtn={true} />
 			<Container fluid>
 				<article>
 					<Row style={{ padding: 40, lineHeight: 2, backgroundColor: '#B3C5D7' }}>
