@@ -35,46 +35,55 @@ const Bar = ({ active }) => {
 	};
 
 	return (
-		<Navbar style={{ backgroundColor: '#7392B7', fontFamily: "'Bebas Neue', cursive" }} expand="lg" variant="dark">
-			<Wrapper
-				children={
-					<Navbar.Brand href="/">
-						<span className="nav-brand">
-							<img src={Logo} width="50" height="50" />Super Latin Store
-						</span>
-					</Navbar.Brand>
-				}
-			/>
-
-			{adjust && (
+		<div>
+			<div className="light-banner">
+				<p>30 Wilson Avenue, Newark, NJ 07105 | Mon - Sun @ 9am - 9pm</p>
+			</div>
+			<Navbar
+				style={{ backgroundColor: '#7392B7', fontFamily: "'Bebas Neue', cursive" }}
+				expand="lg"
+				variant="dark"
+			>
 				<Wrapper
 					children={
-						<Navbar.Collapse id="basic-navbar-nav">
-							<Nav className="mx-auto parent">{NavItems}</Nav>
-						</Navbar.Collapse>
+						<Navbar.Brand href="/">
+							<span className="nav-brand">
+								<img src={Logo} width="50" height="50" />Super Latin Store
+							</span>
+						</Navbar.Brand>
 					}
 				/>
-			)}
 
-			<Wrapper
-				children={
-					<Navbar.Toggle
-						aria-controls="basic-navbar-nav"
-						children={<i style={{ color: '#fff' }} className="fas fa-align-right" />}
+				{adjust && (
+					<Wrapper
+						children={
+							<Navbar.Collapse id="basic-navbar-nav">
+								<Nav className="mx-auto parent">{NavItems}</Nav>
+							</Navbar.Collapse>
+						}
 					/>
-				}
-			/>
+				)}
 
-			{!adjust && (
 				<Wrapper
 					children={
-						<Navbar.Collapse id="basic-navbar-nav">
-							<Nav className="mx-auto parent">{NavItems}</Nav>
-						</Navbar.Collapse>
+						<Navbar.Toggle
+							aria-controls="basic-navbar-nav"
+							children={<i style={{ color: '#fff' }} className="fas fa-align-right" />}
+						/>
 					}
 				/>
-			)}
-		</Navbar>
+
+				{!adjust && (
+					<Wrapper
+						children={
+							<Navbar.Collapse id="basic-navbar-nav">
+								<Nav className="mx-auto parent">{NavItems}</Nav>
+							</Navbar.Collapse>
+						}
+					/>
+				)}
+			</Navbar>
+		</div>
 	);
 };
 

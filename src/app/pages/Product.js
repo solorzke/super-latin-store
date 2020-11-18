@@ -77,9 +77,9 @@ const ProductPage = () => {
 				<Breadcrumb.Item href="/products">Products</Breadcrumb.Item>
 				<Breadcrumb.Item active>{product.name}</Breadcrumb.Item>
 			</Breadcrumb>
+			<ProductNav activePath={product.path} />
 			<main className="product-div">
 				<Container fluid>
-					<ProductNav activePath={product.path} />
 					<Row>
 						<Col>
 							<div className="product-img-div">
@@ -87,7 +87,7 @@ const ProductPage = () => {
 							</div>
 							<div>
 								<Row>
-									<div className="col-md-12 flex-row d-flex justify-content-center mb-3">
+									<div className="col-md-12 flex-row d-flex justify-content-center my-3">
 										<PreviewSlider
 											data={product}
 											onClick={onClick.bind(this)}

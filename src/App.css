@@ -212,3 +212,16 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding-bottom: 10px;
 }
+
+.light-banner {
+  width: 100%;
+  height: 40px;
+  background-color: #78C0E0;
+  text-align: center;
+}
+
+.light-banner > p {
+  font-size: 13px;
+  padding: 10px 0;
+  color: #fff
+}
