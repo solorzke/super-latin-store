@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Product.css';
 import { Link } from 'react-router-dom';
-import { Row, Col, Container, Figure } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 
 export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
 	const [ columns, setColumns ] = useState(4);
@@ -118,12 +118,9 @@ export const PreviewSlider = ({ data, onClick, active }) => {
 		return (
 			<div
 				className={`preview-image ${active === index ? 'preview-image-active' : ''}`}
+				style={{ backgroundImage: `url(${item})`, height: 50, width: 50 }}
 				onClick={() => onClick(index)}
-			>
-				<Figure>
-					<Figure.Image alt="171x180" src={item} style={{ maxWidth: '100%', height: 50 }} />
-				</Figure>
-			</div>
+			/>
 		);
 	});
 };

@@ -1,7 +1,8 @@
 import React, { useLayoutEffect, useEffect, useState } from 'react';
-import { Container, Row, Col, Badge } from 'react-bootstrap';
+import { Container, Row, Col, Badge, Breadcrumb, Nav } from 'react-bootstrap';
 import { useLocation, useParams } from 'react-router-dom';
 import Navbar from '../components/Nav/Navbar';
+import ProductNav from '../components/Nav/Products';
 import Footer from '../components/Footer/Footer';
 import { PreviewSlider } from '../components/Product/Product';
 import { Products } from '../data/Products';
@@ -72,8 +73,13 @@ const ProductPage = () => {
 	return (
 		<div>
 			<Navbar active="Products" />
+			<Breadcrumb>
+				<Breadcrumb.Item href="/products">Products</Breadcrumb.Item>
+				<Breadcrumb.Item active>{product.name}</Breadcrumb.Item>
+			</Breadcrumb>
 			<main className="product-div">
 				<Container fluid>
+					<ProductNav activePath={product.path} />
 					<Row>
 						<Col>
 							<div className="product-img-div">
@@ -81,7 +87,7 @@ const ProductPage = () => {
 							</div>
 							<div>
 								<Row>
-									<div className="col-md-12 flex-row d-flex justify-content-center">
+									<div className="col-md-12 flex-row d-flex justify-content-center mb-3">
 										<PreviewSlider
 											data={product}
 											onClick={onClick.bind(this)}

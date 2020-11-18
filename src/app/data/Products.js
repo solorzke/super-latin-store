@@ -5,6 +5,15 @@ import AFEX from '../images/afex.png';
 import MoneyOrder from '../images/moneyorder.png';
 import Geomil from '../images/geomil.png';
 import CashCheck from '../images/cashcheck.png';
+import Medicine1 from '../images/medicine/1.png';
+import Medicine2 from '../images/medicine/2.webp';
+import Medicine3 from '../images/medicine/3.png';
+import Jewels1 from '../images/jewelery/1.png';
+import Jewels2 from '../images/jewelery/2.png';
+import Jewels3 from '../images/jewelery/3.png';
+import Perfume1 from '../images/perfumes/1.png';
+import Perfume2 from '../images/perfumes/2.png';
+import Perfume3 from '../images/perfumes/3.png';
 import Mask1 from '../images/masks/1.png';
 import Mask2 from '../images/masks/2.png';
 import Mask3 from '../images/masks/3.png';
@@ -41,6 +50,45 @@ import Drink3 from '../images/beverages/3.png';
 import Copies1 from '../images/copies/1.png';
 
 export const Products = [
+	{
+		path: '/products/product/medicine',
+		name: 'Medicine & Herbs',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		images: [ Medicine1, Medicine2, Medicine3 ],
+		image: Medicine1,
+		alt: 'Medicine & Herbs',
+		price: [ 1, 2, 3 ],
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+	},
+
+	{
+		path: '/products/product/jewels',
+		name: 'Jewelery',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		images: [ Jewels1, Jewels2, Jewels3 ],
+		image: Jewels1,
+		alt: 'Jewels',
+		price: [ 20, 30, 40 ],
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+	},
+
+	{
+		path: '/products/product/perfumes',
+		name: 'Perfumes',
+		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		images: [ Perfume1, Perfume2, Perfume3 ],
+		image: Perfume1,
+		alt: 'Perfume',
+		price: [ 45, 50, 60 ],
+		available: true,
+		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+	},
+
 	{
 		path: '/products/product/masks',
 		name: 'COVID-19 Masks',
