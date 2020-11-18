@@ -3,6 +3,7 @@ import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
 import { Container, Row, Col } from 'react-bootstrap';
+import QR from '../images/qrcode.png';
 
 const LocationPage = () => {
 	return (
@@ -44,8 +45,11 @@ const LocationPage = () => {
 								<a href="#">
 									<i class="fab fa-twitter-square social-media" />
 								</a>
-								<a href="#">
+								<a href="https://www.instagram.com/superlatinstorellc">
 									<i class="fab fa-instagram-square social-media" />
+								</a>
+								<a href={QR} target="_blank">
+									<i class="fas fa-qrcode social-media" />
 								</a>
 							</Col>
 						</Row>

@@ -5,6 +5,7 @@ import { Services } from '../../data/Products';
 import Logo from '../../images/sls.png';
 import USA from '../../images/usa.png';
 import ESP from '../../images/spain.png';
+import QR from '../../images/qrcode.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -54,7 +55,10 @@ const Navigation = () => {
 									<i className="fab fa-facebook-f footer-icon" />{' '}
 								</a>
 								<a href="https://www.instagram.com/superlatinstorellc" target="_blank">
-									<i className="fab fa-instagram footer-icon" />
+									<i className="fab fa-instagram footer-icon" />{' '}
+								</a>
+								<a href={QR} target="_blank">
+									<i className="fas fa-qrcode footer-icon" />{' '}
 								</a>
 							</Col>
 						</Row>
