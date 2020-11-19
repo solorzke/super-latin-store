@@ -82,7 +82,7 @@ const ProductPage = () => {
 				<Container fluid>
 					<Row>
 						<Col>
-							<div className="product-img-div">
+							<div className="product-img-div mt-2">
 								<img src={product.images[currentImage]} alt={product.alt} className="product-img" />
 							</div>
 							<div>
