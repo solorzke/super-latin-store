@@ -1,5 +1,6 @@
-import React from 'react';
-import { Container, Row, Col, Table, Figure, Image } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Container, Row, Col, Table, Figure, Image, Modal } from 'react-bootstrap';
+import Button from '../Button/Button';
 import { Link } from 'react-router-dom';
 import { Services } from '../../data/Products';
 import Logo from '../../images/sls.png';
@@ -21,7 +22,27 @@ const Footer = () => {
 	);
 };
 
+const ModalImage = (props) => {
+	return (
+		<Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
+			<Modal.Header closeButton>
+				<Modal.Title id="contained-modal-title-vcenter">QR Code</Modal.Title>
+			</Modal.Header>
+			<Modal.Body>
+				<div className="img-modal">
+					<img src={QR} height="100%" width="50%" alt="www.superlatinstore.com" />
+				</div>
+			</Modal.Body>
+			<Modal.Footer>
+				<Button onClick={props.onHide} label="Close" />
+			</Modal.Footer>
+		</Modal>
+	);
+};
+
 const Navigation = () => {
+	const [ show, setShow ] = useState(false);
+
 	return (
 		<div className="navigation-footer">
 			<Container fluid>
@@ -57,9 +78,10 @@ const Navigation = () => {
 								<a href="https://www.instagram.com/superlatinstorellc" target="_blank">
 									<i className="fab fa-instagram footer-icon" />{' '}
 								</a>
-								<a href={QR} target="_blank">
+								<a href="#" onClick={() => setShow(true)}>
 									<i className="fas fa-qrcode footer-icon" />{' '}
 								</a>
+								<ModalImage show={show} onHide={() => setShow(false)} />
 							</Col>
 						</Row>
 						<Row style={{ paddingTop: 10 }}>
