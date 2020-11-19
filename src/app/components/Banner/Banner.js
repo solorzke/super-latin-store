@@ -5,12 +5,16 @@ import '../../../Responsive.css';
 import Button from '../Button/Button';
 import Stormfront from '../../images/store.jpg';
 import { Bounce } from 'react-reveal';
+import { useHistory } from 'react-router-dom';
 
 const Banner = ({ title, subtitle, hideBtn }) => {
+	const history = useHistory();
+	const routeChange = () => history.push('/about');
+
 	const BannerButton = () => {
 		return (
 			<div className="banner-btn">
-				<Button label="Learn More" />
+				<Button label="Learn More" onClick={() => routeChange()} />
 			</div>
 		);
 	};
