@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
 import { Container, Row, Col } from 'react-bootstrap';
-import QR from '../images/qrcode.png';
+import ModalImage from '../components/Modal/Modal';
 
 const LocationPage = () => {
+	const [ show, setShow ] = useState(false);
 	return (
 		<div>
 			<Navbar active="Location" />
@@ -48,9 +49,10 @@ const LocationPage = () => {
 								<a href="https://www.instagram.com/superlatinstorellc">
 									<i class="fab fa-instagram-square social-media" />
 								</a>
-								<a href={QR} target="_blank">
+								<a href="#" onClick={() => setShow(true)}>
 									<i class="fas fa-qrcode social-media" />
 								</a>
+								<ModalImage show={show} onHide={() => setShow(false)} />
 							</Col>
 						</Row>
 					</Container>

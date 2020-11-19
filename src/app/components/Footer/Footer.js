@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Table, Figure, Image, Modal } from 'react-bootstrap';
 import Button from '../Button/Button';
+import ModalImage from '../Modal/Modal';
 import { Link } from 'react-router-dom';
 import { Services } from '../../data/Products';
 import Logo from '../../images/sls.png';
 import USA from '../../images/usa.png';
 import ESP from '../../images/spain.png';
-import QR from '../../images/qrcode.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -19,24 +19,6 @@ const Footer = () => {
 				</strong>
 			</footer>
 		</div>
-	);
-};
-
-const ModalImage = (props) => {
-	return (
-		<Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-			<Modal.Header closeButton>
-				<Modal.Title id="contained-modal-title-vcenter">QR Code</Modal.Title>
-			</Modal.Header>
-			<Modal.Body>
-				<div className="img-modal">
-					<img src={QR} height="100%" width="50%" alt="www.superlatinstore.com" />
-				</div>
-			</Modal.Body>
-			<Modal.Footer>
-				<Button onClick={props.onHide} label="Close" />
-			</Modal.Footer>
-		</Modal>
 	);
 };
 
