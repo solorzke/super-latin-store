@@ -23,6 +23,8 @@ const AboutPage = () => {
 		[ location.pathname ]
 	);
 
+	const sendMessage = () => (window.location = 'mailto:superlatinstore@outlook.com');
+
 	useEffect(() => {
 		const handleResize = () => {
 			switch (window.innerWidth < 768) {
@@ -54,7 +56,7 @@ const AboutPage = () => {
 						<Parallax className="custom-class" y={y} tagOuter="figure">
 							<div className="quote">
 								<h2 className="quote-text">
-									We’re a group of creative thinkers who have built a business to change the world.
+									Based in Newark, Proudly Serving To Our Latin Community 24/7, All Year Round.
 								</h2>
 							</div>
 						</Parallax>
@@ -97,13 +99,13 @@ const AboutPage = () => {
 			<div className="wrap">
 				<div className="section-bg" style={{ backgroundImage: `url(${Bills})` }}>
 					<Container fluid>
-						<h1 className="section-heading">Grow your business.</h1>
+						<h1 className="section-heading">Have Questions?</h1>
 						<p className="section-heading">
-							Today is the day to build the business of your dreams. Share your mission with the world —
-							and blow your customers away.
+							Please feel free to contact us via email with any questions you may have and we'll try our
+							best to get back to you soon!
 						</p>
 						<p className="section-heading">
-							<Button label="Learn More" />
+							<Button label="Send Message" onClick={() => sendMessage()} />
 						</p>
 					</Container>
 				</div>
