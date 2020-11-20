@@ -302,7 +302,7 @@ export const Services = {
 	SEND_MONEY: {
 		path: '/products/service/send-money',
 		name: 'Send Money',
-		description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+		description: "Send & Receive Money around the world using Afex's service!",
 		image: AFEX,
 		images: [ Money5, Money7 ],
 		paragraphs: [
@@ -319,13 +319,13 @@ export const Services = {
 			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
 		],
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Send & Receive Money around the world using Afex's service!`
 	},
 
 	PAY_BILL: {
 		path: '/products/service/pay-bills',
 		name: 'Pay Bills',
-		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+		description: `Pay bills ranging from Cablevision to PSEG, Optimum, and more!`,
 		image: Payment,
 		images: [ Money10, Money11 ],
 		paragraphs: [
@@ -343,13 +343,13 @@ export const Services = {
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Pay bills ranging from Cablevision to PSEG, Optimum, and more!`
 	},
 
 	BOOST_RECHARGE: {
 		path: '/products/service/recharge',
 		name: 'Phone Recharges',
-		description: `"Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+		description: `Need a Recharge? Let us help you add more minutes to your Boss Revolution account!`,
 		image: BossRevolution,
 		images: [ Money8, Money9 ],
 		paragraphs: [
@@ -367,13 +367,13 @@ export const Services = {
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Need a Recharge? Let us help you add more minutes to your Boss Revolution account!`
 	},
 
 	MONEY_ORDER: {
 		path: '/products/service/money-order',
 		name: 'Money Order',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+		description: `Use our RIA Money Order service to send money quickly.`,
 		image: MoneyOrder,
 		images: [ Money4, Money6 ],
 		paragraphs: [
@@ -391,13 +391,13 @@ export const Services = {
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Use our RIA Money Order service to send money quickly.`
 	},
 
 	PACKAGING: {
 		path: '/products/service/packaging',
 		name: 'Packaging',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+		description: `Need something sent to Ecuador? Use our express shipping service!`,
 		image: Geomil,
 		images: [ Money3, Money2 ],
 		paragraphs: [
@@ -415,13 +415,13 @@ export const Services = {
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Need something sent to Ecuador? Use our express shipping service!`
 	},
 
 	CASH_CHECKS: {
 		path: '/products/service/cash-checks',
 		name: 'Cash Checks',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit`,
+		description: `Turn in your payroll checks for cash quickly and for a low fee.`,
 		image: CashCheck,
 		images: [ Money1, Money3 ],
 		paragraphs: [
@@ -439,6 +439,6 @@ export const Services = {
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Turn in your payroll checks for cash quickly and for a low fee.`
 	}
 };
