@@ -67,24 +67,35 @@ const AboutPage = () => {
 			<Container>
 				<article className="summary">
 					<p>
-						Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-						live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
-						a large language ocean. A small river named Duden flows by their place and supplies it with the
-						necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
-						into your mouth.
+						Super Latin Store was established several years ago in Newark, NJ as a spot to help serve to the
+						latin community that's rich in both culture and respect. As fellow Ecuadorians ourselves, we
+						come to understand how much pride we take in the work we put into to serve to the community, at
+						the highest level of dedication and care. Our store serves to provide you with a wide array of
+						items and services, ranging from food, medicine and clothing, to more financial matters like
+						money orders and bill payments.
 					</p>
 					<p>
-						Even the all-powerful Pointing has no control about the blind texts it is an almost
-						unorthographic life One day however a small line of blind text by the name of Lorem Ipsum
-						decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because
-						there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little
-						Blind Text didn’t listen.
+						Our store is open all week long from 8 A.M. to 9 P.M. including the weekends. Our business
+						provides the community with some of the most popular latin goods available, with a wide list of
+						options ranging from tuna, mote, variety in medicinal herbs and remedies, albacore, popular
+						Ecuadorian drinks like Guitig, soda, beans, and snacks. We also provide gift items such as
+						plushies, perfumes/colognes, jewelery, hats/caps, bags, glasses, and clothing items. Super Latin
+						Store is also partnered with Boost Mobile as a local distributor, meaning we sell some of the
+						latest smart phones in the industry hooked up with Boost Mobile's network and provide you
+						assistance with creating or managing your Boost Mobile service. Stop by our store to learn more
+						information about opening an account with Boost Mobile, or switching carriers.
 					</p>
 					<p>
-						She packed her seven versalia, put her initial into the belt and made herself on the way. When
-						she reached the first hills of the Italic Mountains, she had a last view back on the skyline of
-						her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road,
-						the Line Lane.
+						We also provide financial services such as money transactions to various destinations across the
+						world including Central and South America, and Europe. Whether you're someone who needs to send
+						money to someone or make a bank deposit remotely, we can assist you using our licensed AFEX
+						network to connect you with any financial institutions around the world and securely send your
+						hard earned cash, safe and sound. Just bring proof of ID and of the beneficiary to get started.
+						Aside from that, we also complete your billing payments for companies such as PSEG, Cablevision,
+						and Internet for you with no hassle and on time. Need to pay off your monthly bill for your
+						prepaid phone? Just tell us the phone service company you're with and we can make direct
+						payments to them so you can continue using your phone. Want to exchange your checks for cash? We
+						can handle that too. Pay us a visit soon with anything you need from us, we're there for you!
 					</p>
 				</article>
 				<hr />

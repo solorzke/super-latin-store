@@ -111,7 +111,7 @@ export const Products = [
 		alt: 'Toys, Stuffed Animals',
 		price: [ 20, 30, 40 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Plushies, big and small - for gifts`
 	},
 
 	{
@@ -124,7 +124,7 @@ export const Products = [
 		alt: 'Snacks',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Platain Chips, Candy, Bon Bons, Tango and more.`
 	},
 
 	{
@@ -137,7 +137,7 @@ export const Products = [
 		alt: 'Groceries',
 		price: [ 'Varies per item' ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Albacore, Grains, Mote, Corn, Beans, Yuca, Spices.`
 	},
 
 	{
@@ -150,7 +150,7 @@ export const Products = [
 		alt: 'Medicine & Herbs',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Theraflu, Alka-Seltzer, Aspirin, Vaporub, Sangre De Drago and more.`
 	},
 
 	{
@@ -163,7 +163,7 @@ export const Products = [
 		alt: 'Jewels',
 		price: [ 20, 30, 40 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Bracelets, earings, necklaces, rings.`
 	},
 
 	{
@@ -176,7 +176,7 @@ export const Products = [
 		alt: 'Perfume',
 		price: [ 45, 50, 60 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Yanbal Cologne, Polo Ralph Lauren, Giorgio Armani, Bleu De Chanel`
 	},
 
 	{
@@ -189,7 +189,7 @@ export const Products = [
 		alt: 'Masks',
 		price: [ 1, 10, 15 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `KN-95 Masks, Surgical Masks, Designer Masks, Packs of Masks and more.`
 	},
 
 	{
@@ -203,7 +203,7 @@ export const Products = [
 		price: [ 2 ],
 		//0, 5, 6 === Sun, Friday, Sat
 		available: [ 0, 5, 6 ].includes(new Date().getDay()),
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Fresh Ecuadorian Humitas and Tamales - only available on weekends.`
 	},
 
 	{
@@ -216,7 +216,7 @@ export const Products = [
 		alt: 'Albacora',
 		price: [ 6 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Frozen Albacore Filet, popular for Encebollados.`
 	},
 
 	{
@@ -229,7 +229,7 @@ export const Products = [
 		alt: 'Calling Cards',
 		price: [ 2, 5 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Calling Cards for Boss Revolution, Tigo, Yellow, and Claro.`
 	},
 
 	{
@@ -242,7 +242,7 @@ export const Products = [
 		alt: 'Beverages',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Sodas, Energy Drinks, Water, Snapple, Dairy.`
 	},
 
 	{
@@ -255,7 +255,7 @@ export const Products = [
 		alt: 'Copies',
 		price: [ 1 ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Colored or Non-Colored copies and scans of documents.`
 	},
 
 	{
@@ -268,7 +268,7 @@ export const Products = [
 		alt: 'Electronics',
 		price: [ 'Varies per item' ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Headphones, Charging cables, cases, protectors, speakers.`
 	},
 
 	{
@@ -281,7 +281,7 @@ export const Products = [
 		alt: 'Smart Phones',
 		price: [ 'Varies per phone' ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Boost-approved smart phones and unlocked phones - pricing varies`
 	},
 
 	{
@@ -294,7 +294,7 @@ export const Products = [
 		alt: 'Apparel',
 		price: [ 'Varies per item' ],
 		available: true,
-		tagline: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod`
+		tagline: `Hats, caps, scarves, shirts, gloves, jackets.`
 	}
 ];
 
