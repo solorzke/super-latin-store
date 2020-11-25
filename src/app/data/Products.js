@@ -104,197 +104,269 @@ export const Products = [
 	{
 		path: '/products/product/toys',
 		name: 'Toys',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Grab a plushie or stuffed animal to give as a gift to your loved one for the right occasion. Look for the right one that
+		has the right size and describes how you care about them. We have from Mickey Mouse, Bears, and others.`,
 		images: [ Toy1, Toy2 ],
 		image: Toy1,
 		alt: 'Toys, Stuffed Animals',
 		price: [ 20, 30, 40 ],
 		available: true,
-		tagline: `Plushies, big and small - for gifts`
+		tagline: `Plushies, big and small - for gifts`,
+		points: [ 'Various sizes including life size.', 'Mickey Mouse, Sonic, Animals' ]
 	},
 
 	{
 		path: '/products/product/snacks',
 		name: 'Snacks',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Need a quick bite before you head out? Grab a bag of chips or other snacks at our store. Grab Bon Bons, Tango, Manicho, and other 
+		imported snacks that you like.`,
 		images: [ Snack1, Snack2, Snack3, Snack4 ],
 		image: Snack1,
 		alt: 'Snacks',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Platain Chips, Candy, Bon Bons, Tango and more.`
+		tagline: `Platain Chips, Candy, Bon Bons, Tango and more.`,
+		points: [ 'Manicho, Tango, Snickers, Huevitos', 'Chips, Plaintain Chips', 'Bon Bons' ]
 	},
 
 	{
 		path: '/products/product/groceries',
 		name: 'Groceries',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `At your convenience, we also provide grocery items to add to your kitchen whenever you're in the need to cook.
+		We have various items that one would need to prepare for their lunch or dinner. Grains, Beans, Fish, Vegetables, Spices, Mote and more.`,
 		images: [ Groceries1, Groceries2, Groceries3 ],
 		image: Groceries1,
 		alt: 'Groceries',
 		price: [ 'Varies per item' ],
 		available: true,
-		tagline: `Albacore, Grains, Mote, Corn, Beans, Yuca, Spices.`
+		tagline: `Albacore, Grains, Mote, Corn, Beans, Yuca, Spices.`,
+		points: [ 'Albacore, Grains, Mote, Corn, Beans, Yuca, Spices.' ]
 	},
 
 	{
 		path: '/products/product/medicine',
 		name: 'Medicine & Herbs',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Feeling under the weather? Our store provides quick remedies to combat the flu, headaches, pain, fever, soreness, and others.
+		We provide over the counter medication that can be located at any pharmacy here at your convenience, when you need it.`,
 		images: [ Medicine1, Medicine2, Medicine3, Medicine4, Medicine5 ],
 		image: Medicine1,
 		alt: 'Medicine & Herbs',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Theraflu, Alka-Seltzer, Aspirin, Vaporub, Sangre De Drago and more.`
+		tagline: `Theraflu, Alka-Seltzer, Aspirin, Vaporub, Sangre De Drago and more.`,
+		points: [
+			'Headaches: Tylenol, Advil, Bayer, Finalin Forte',
+			'Flu: Singripal, Lemon FLu, Theraflu',
+			'Indigestion: Tums, Pepto Bismol',
+			'Sores & Scrapes: Sangre de Drago',
+			'Menthol: Chinese Menthol, Vaporub'
+		]
 	},
 
 	{
 		path: '/products/product/jewels',
 		name: 'Jewelery',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Jewelery is a special thing that compliments the look on the wearer and our store provides you with a selection of various types
+		to choose from including earings, rings, bracelets and other pieces of jewelery akin to latin-american culture such as 7 metals bracelets and 
+		more.`,
 		images: [ Jewels1, Jewels2, Jewels3, Jewels4 ],
 		image: Jewels1,
 		alt: 'Jewels',
 		price: [ 20, 30, 40 ],
 		available: true,
-		tagline: `Bracelets, earings, necklaces, rings.`
+		tagline: `Bracelets, earings, necklaces, rings.`,
+		points: [
+			'Earings, necklances, rings',
+			'Silver, Gold, Bronze available',
+			'7 Metal Bracelets and wrist bands available'
+		]
 	},
 
 	{
 		path: '/products/product/perfumes',
 		name: 'Perfumes',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Visit our store and take a look at the long list of brands we have available for both men and women. We have colognes and 
+		perfumes from high quality brands such as Ralph Lauren, Yanbal, Armani and many more.`,
 		images: [ Perfume1, Perfume2, Perfume3, Perfume4, Perfume5 ],
 		image: Perfume1,
 		alt: 'Perfume',
 		price: [ 45, 50, 60 ],
 		available: true,
-		tagline: `Yanbal Cologne, Polo Ralph Lauren, Giorgio Armani, Bleu De Chanel`
+		tagline: `Yanbal Cologne, Polo Ralph Lauren, Giorgio Armani, Bleu De Chanel`,
+		points: [
+			'Yanbal colognes/perfumes available for selection',
+			'High quality brands available',
+			'100% Authentic'
+		]
 	},
 
 	{
 		path: '/products/product/masks',
 		name: 'COVID-19 Masks',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `With the ongoing COVID-19 Pandemic continuing to march on, its important to continue basic safety procedures and wear a 
+		mask to fight against the virus and protect the safety of ourselves and those around us. We sell high quality masks ranging up to 6 
+		times the protective layer to ensure a safety to yourself and others.`,
 		images: [ Mask1, Mask2, Mask3, Mask4 ],
 		image: Mask1,
 		alt: 'Masks',
 		price: [ 1, 10, 15 ],
 		available: true,
-		tagline: `KN-95 Masks, Surgical Masks, Designer Masks, Packs of Masks and more.`
+		tagline: `KN-95 Masks, Surgical Masks, Designer Masks, Packs of Masks and more.`,
+		points: [
+			'Surgical Masks, Military Issue, KN-95 masks available',
+			'Designer masks for a more fashionable yet secure look',
+			'Size fits all'
+		]
 	},
 
 	{
 		path: '/products/product/humitas',
 		name: 'Humitas',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Some of the most popular dishes in our latin community, the humita and tamale are a staple of our culture and we sell them here too!
+		Because of the popular nature of these items, they sell out very quickly. If you're interested in ordering some, please consider placing an order early or the day before.
+		These items are only available on the weekends.`,
 		images: [ Huma1 ],
 		image: Huma1,
 		alt: 'Humitas',
-		price: [ 2 ],
+		price: [ 2, 2.5 ],
 		//0, 5, 6 === Sun, Friday, Sat
 		available: [ 0, 5, 6 ].includes(new Date().getDay()),
-		tagline: `Fresh Ecuadorian Humitas and Tamales - only available on weekends.`
+		tagline: `Fresh Ecuadorian Humitas and Tamales - only available on weekends.`,
+		points: [
+			'Fresh Humitas and Tamales available in the morning.',
+			'Only available on Saturdays and Sundays.',
+			'Consider placing an order early to make sure you can get some.'
+		]
 	},
 
 	{
 		path: '/products/product/albacora',
 		name: 'Albacora',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Can't make an encebollado without Albacore. Rather than making a trip to the fishing market, stop by to pick up albacore, 
+		popular among Ecuadorians, and save yourself money and time.`,
 		images: [ Fish1, Fish2, Fish3 ],
 		image: Fish2,
 		alt: 'Albacora',
 		price: [ 6 ],
 		available: true,
-		tagline: `Frozen Albacore Filet, popular for Encebollados.`
+		tagline: `Frozen Albacore Filet, popular for Encebollados.`,
+		points: [ '$6.5 per lb' ]
 	},
 
 	{
 		path: '/products/product/calling-cards',
 		name: 'Calling Cards',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Use a calling card to make long distance calls to anyone anywhere at low cost, with great phone 
+		service provided by companies such as Tigo, Claro, Boss Revolution and more`,
 		images: [ Card1, Card2, Card3 ],
 		image: Card1,
 		alt: 'Calling Cards',
 		price: [ 2, 5 ],
 		available: true,
-		tagline: `Calling Cards for Boss Revolution, Tigo, Yellow, and Claro.`
+		tagline: `Calling Cards for Boss Revolution, Tigo, Yellow, and Claro.`,
+		points: [
+			'Use calling cards anywhere at any time.',
+			'Phone service providers include: Tigo, Claro, Boss Revloution, Yellow.',
+			'Available from $2, $5, $7, and $10'
+		]
 	},
 
 	{
 		path: '/products/product/beverages',
 		name: 'Beverages',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `We have beverages including imported goods and dairy products when available. Brands like Coca-Cola, Redbull, Gatorade, Guitig,
+		Goya, Snapple and more.`,
 		images: [ Drink1, Drink2, Drink3, Drink4 ],
 		image: Drink1,
 		alt: 'Beverages',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Sodas, Energy Drinks, Water, Snapple, Dairy.`
+		tagline: `Sodas, Energy Drinks, Water, Snapple, Dairy.`,
+		points: [
+			'Sodas: Coca Cola, Sprite, Pepsi, Manzana, Inca Cola, Tropical',
+			'Energy Drinks: Redbull, Monster Energy, Gatorade',
+			'Juice: Aloe, Snapple, Cocotal, Fruit Juice',
+			'Water: Guitig, Castello, Poland Springs',
+			'Dairy: Yogurt, Milk'
+		]
 	},
 
 	{
 		path: '/products/product/copies',
 		name: 'Copies',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Need to print a document? Make Copies? Create a Word Document? Pay us a visit where we can help you use our printing station to 
+		print documents, make copies and create ones too. `,
 		images: [ Copies1 ],
 		image: Copies1,
 		alt: 'Copies',
 		price: [ 1 ],
 		available: true,
-		tagline: `Colored or Non-Colored copies and scans of documents.`
+		tagline: `Colored or Non-Colored copies and scans of documents.`,
+		points: [
+			'Make copies of PDF Documents up to 20 pages.',
+			'Scan documents',
+			'Create your Word Documents to print for later.'
+		]
 	},
 
 	{
 		path: '/products/product/electronics',
 		name: 'Electronics',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `We have a selection of various different types of electronics to meet your needs for any purpose ranging from chargers 
+		to surveliance cameras. The list includes:`,
 		images: [ Ele1, Ele2, Ele3, Ele4 ],
 		image: Ele1,
 		alt: 'Electronics',
 		price: [ 'Varies per item' ],
 		available: true,
-		tagline: `Headphones, Charging cables, cases, protectors, speakers.`
+		tagline: `Headphones, Charging cables, cases, protectors, speakers.`,
+		points: [
+			'Phone chargers, cables, cases, screen protectors',
+			'Bluetooth speakers and headphones/airpods',
+			'Surveliance Cameras, Antennas',
+			'TV Remote'
+		]
 	},
 
 	{
 		path: '/products/product/smart-phones',
 		name: 'Smart Phones',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `Thanks to Boost Mobile, we can help you with your purchase of any of our smart phones when you switch 
+		to Boost Mobile. We have some of the best and affordable smart phones available now including iPhones, Samsung A Series 10, 20, 21 and more.
+		All kept up to date at a low cost to you. We also offer free upgrades to any of Boost's exisiting members (subject to whomever qualifies) and 
+		Carrier Switching at a low cost. Unlocked phones are also available for purchase.`,
 		images: [ Phone1, Phone2, Phone3, Phone4, Phone5 ],
 		image: Phone3,
 		alt: 'Smart Phones',
 		price: [ 'Varies per phone' ],
 		available: true,
-		tagline: `Boost-approved smart phones and unlocked phones - pricing varies`
+		tagline: `Boost-approved smart phones and unlocked phones - pricing varies`,
+		points: [
+			'Android-based phones and iPhone devices available',
+			'Pick any smart phone of your choice from our catalog such as the Samsung A series when you switch to Boost Mobile.',
+			'Unlocked devices available, iPhone and Samsung.',
+			'Currently in stock: Samsung A10, A20, A21, iPhone 6 Plus'
+		]
 	},
 
 	{
 		path: '/products/product/apparel',
 		name: 'Apparel',
-		description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+		description: `We have a wide list of apparel ranging from caps, hats, beanies, gloves, jerseys, and glasses.
+		Our jersey selection includes national soccer teams like Ecuador, or clubs like Barcelona, Liga de Quito, Emelec and more.
+		Hats are available for any type of weather, cold or sunny.`,
 		images: [ Apparel1, Apparel2, Apparel3 ],
 		image: Apparel2,
 		alt: 'Apparel',
 		price: [ 'Varies per item' ],
 		available: true,
-		tagline: `Hats, caps, scarves, shirts, gloves, jackets.`
+		tagline: `Hats, caps, scarves, shirts, gloves, jackets.`,
+		points: [
+			'Hats appropriate for any weather, including beanies and ski masks',
+			'Sport Jerseys including national soccer teams and clubs',
+			'Gloves appropriate for machinery work',
+			'Sun glasses in various different sizes'
+		]
 	}
 ];
 

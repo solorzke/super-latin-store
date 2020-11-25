@@ -60,6 +60,7 @@ const ProductPage = () => {
 					{product.description}
 					<div style={{ borderBottom: '1px solid #000', width: '90%', paddingTop: 10 }} />
 				</p>
+				<ul className="product-ul">{product.points.map((item, index) => <li>{item}</li>)}</ul>
 				<Badge
 					variant={product.available ? 'success' : 'danger'}
 					style={{ fontFamily: "'Bebas Neue', cursive", padding: 10 }}
