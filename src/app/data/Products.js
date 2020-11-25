@@ -378,17 +378,20 @@ export const Services = {
 		image: AFEX,
 		images: [ Money5, Money7 ],
 		paragraphs: [
-			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-			non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`,
-			`"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-			eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-			incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
-			suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
+			`Super Latin Store offers to our customers the ability to send money across the world using our AFEX Money Transfer Network, 
+			quickly and safely. AFEX allows us to set up our clients with their own accounts and prepare to send money to almost any 
+			financial institution or bank in the destination of their choice. AFEX's network is one the best global money payment providers 
+			in the country and we are honored to have them working with us to help our clients. If you're someone who needs to send money 
+			to loved ones to any country in South and Central America, or Spain, look no further because we can help you send that money 
+			quickly before the end of the day.`,
+			`Just about anyone with/without a valid piece of identification can apply to send money. We are capable of making money 
+			transfers to countries like Mexico, Honduras, Guatemala, Peru, Ecuador, Brazil, Venezuela, Colombia, Dominican Republic, 
+			Puerto Rico, Spain, United States, Chile, and others. You can decide what type of money transfer you'd wish to send, 
+			via cash pickup or bank deposit. However, bank deposit transfers requires an additional ID from the recipient in their 
+			respective country in order to proceed. Once transfers are made, they should become available for the recipient to check out
+			within the hour. Since we're logged in with the money transfer network, we're also capable of receiving money orders made 
+			from any part of the world, as long as they work within the network. Pay us a visit to start sending or receiving 
+			funds to whomever at any time.`
 		],
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
 		tagline: `Send & Receive Money around the world using Afex's service!`
@@ -401,17 +404,14 @@ export const Services = {
 		image: Payment,
 		images: [ Money10, Money11 ],
 		paragraphs: [
-			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-			non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`,
-			`"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-			eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-			incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
-			suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
+			`Paying bills is part of life all year round and we understand there are people that struggle to figure out how to pay them when we live
+			with an fast-paced technological society with applications and computers. Its with this principle in mind that we offer to assist you 
+			in paying your bills and relieving you of the burden of figuring out how, by keeping it simple and quick. Whether its a billing payment 
+			that needs to be quickly or ahead of time, you can rest easy knowing we at Super Latin Store, take care of it for you.`,
+			`We make payments on your behalf to companies such as PSEG, Cablevision, Optimum, Verizon Fios, Parking Tickets, Water, and more. 
+			These companies and others alike, encompass utilities we use everyday like electricity, water, and internet which makes it important that you
+			make those payments on time. We also make phone bill payments for prepaid plans to companies such as Boost Mobile, Simple Mobile, Ultra Mobile,
+			T-Mobile, Verizon, and others for you. Simply bring with you your bill and we'll happily help you take care of that.`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
@@ -425,17 +425,15 @@ export const Services = {
 		image: BossRevolution,
 		images: [ Money8, Money9 ],
 		paragraphs: [
-			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-			non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`,
-			`"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-			eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-			incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
-			suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
+			`We are partnered with Boss Revolution, a service that provides a low-cost network to make phone calls on prepaid mobile phones,
+			to our customers who regularly use prepaid phones for long distance calling. Boss Revolution allows its clients to make phone recharges
+			on their accounts to add more minutes and cellular data on their phones. Recharges are simple, choose a prepaid plan with the amount of minutes
+			and cellular data in mind, and pay it at any service provider on the spot, like ours. We have cellular plans that cover its use for a day, week,
+			or month, it all depends on how much you'd like to use their service.`,
+			`Boss Revolution also provides its clients with international phone recharges to various countries within their own respective cellular 
+			companies too. Our clients regularly make these recharges to phone companies such as Tigo, Claro, Movistar, and others, all of  which work
+			with Boss Revolution's service. You can provide anyone in those countries with a prepaid service to his/her phone number through Boss
+			Revolution. We also provide the alternative method of calling cards by Boss Revolution to you if you need to make any long distance calls.`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
@@ -449,17 +447,11 @@ export const Services = {
 		image: MoneyOrder,
 		images: [ Money4, Money6 ],
 		paragraphs: [
-			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-			non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`,
-			`"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-			eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-			incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
-			suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
+			`Money Orders are another conventional method to transfering money to a destination and we provide money orders to you through RIA's 
+			payment nework. Super Latin Store doesn't work with Western Union or Moneygram, however RIA is a popular alternative that also makes it
+			quick and easy to create money orders to anyone on the spot.`,
+			`Just about anyone can ask for a money order at any time. Simply tell us how much you'd like to put down for the order, and we'll handle
+			the rest quickly. Once your order has been created and paid for, you are ready to use that money order however you'd like. That was easy!`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
@@ -473,17 +465,15 @@ export const Services = {
 		image: Geomil,
 		images: [ Money3, Money2 ],
 		paragraphs: [
-			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-			non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`,
-			`"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-			eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-			incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
-			suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
+			`Super Latin Store is finally offering express package shippping to all provinces and districts in Ecuador only. Having reached an agreement
+			with Geomil Express, an express shipping company, we now have the ability to send your packages to Ecuador, risk free, through the Ecuadorian
+			consulate. All Ecuadorian citizens can apply to ship a select number of items to anyone in Ecuador and have it delivered to them the following
+			week. Geomil's service is guaranteed to assist you with taking absolute care and responsibility with all your items to its destination.`,
+			`In order to qualify for express shipping, a few prerequisites are required to be met by both the sender and the receiver. Both parties must 
+			present their Ecuadorian cedula or identification card to our store to confirm their status as valid citizens. If you're a resident here in the US, make
+			sure you are registered with the Ecuadorian consulate before considering making a shipment. Afterwards, provide us with details of its destination
+			and the contents that will be shipped. More details will be explained by one of our representatives. We only ship up to 8 lbs so pack light, and
+			delivery should take no more than 1-2 weeks. Consider making a shipment with us!`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
@@ -497,17 +487,12 @@ export const Services = {
 		image: CashCheck,
 		images: [ Money1, Money3 ],
 		paragraphs: [
-			`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-			non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."`,
-			`"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-			eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
-			quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-			Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
-			incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
-			suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse 
-			quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"`
+			`Want to turn those payroll checks into cash quick? Visit our spot any day of the week and we can help you cash those checks for you without
+			needing to rush to the bank, conveniency at its best. At the moment we only accept payroll checks from approved companies or employers with a 
+			verifiable account number. Therefore, personal checks will not be accepted.`,
+			`We only cash checks up to $999 and they must not be signed until they are presented to us at the store. In order to cash a check, you must provide
+			us with any proof of identification so we can confirm your identity. Our convenience fee is always 1.5% of any payroll checks and they must not be void
+			after 90 days.`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
