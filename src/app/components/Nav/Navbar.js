@@ -5,20 +5,23 @@ import Logo from '../../images/shape.png';
 
 const Bar = ({ active }) => {
 	const [ adjust, setAdjust ] = useState(false);
-	useEffect(() => {
-		window.innerWidth > 993 ? setAdjust(true) : setAdjust(false);
-		const handleResize = () => {
-			switch (window.innerWidth > 993) {
-				case true:
-					if (!adjust) setAdjust(true);
-					break;
-				case false:
-					if (adjust) setAdjust(false);
-					break;
-			}
-		};
-		window.addEventListener('resize', handleResize);
-	});
+	useEffect(
+		() => {
+			window.innerWidth > 993 ? setAdjust(true) : setAdjust(false);
+			const handleResize = () => {
+				switch (window.innerWidth > 993) {
+					case true:
+						if (!adjust) setAdjust(true);
+						break;
+					default:
+						if (adjust) setAdjust(false);
+						break;
+				}
+			};
+			window.addEventListener('resize', handleResize);
+		},
+		[ adjust ]
+	);
 
 	const NavItems = Links.map((item, index) => {
 		return (
@@ -48,7 +51,7 @@ const Bar = ({ active }) => {
 					children={
 						<Navbar.Brand href="/">
 							<span className="nav-brand">
-								<img src={Logo} width="50" height="50" />Super Latin Store
+								<img src={Logo} width="50" height="50" alt="Super Latin Store" />Super Latin Store
 							</span>
 						</Navbar.Brand>
 					}

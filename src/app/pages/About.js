@@ -16,13 +16,7 @@ const AboutPage = () => {
 	const [ adjust, setAdjust ] = useState(false);
 	const [ y, setY ] = useState([ -60, 60 ]);
 	// Scroll to top if path changes
-	useLayoutEffect(
-		() => {
-			window.scrollTo(0, 0);
-		},
-		[ location.pathname ]
-	);
-
+	useLayoutEffect(() => window.scrollTo(0, 0), [ location.pathname ]);
 	const sendMessage = () => (window.location = 'mailto:superlatinstore@outlook.com');
 
 	useEffect(() => {
@@ -34,7 +28,7 @@ const AboutPage = () => {
 						setAdjust(true);
 					}
 					break;
-				case false:
+				default:
 					if (adjust) {
 						setY([ -60, 60 ]);
 						setAdjust(false);

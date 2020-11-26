@@ -40,11 +40,12 @@ const LocationPage = () => {
 							</Col>
 							<Col>
 								<h2>Redes Sociales</h2>
-								<a href="https://www.facebook.com/SuperLatinStoreEC/" target="_blank">
+								<a
+									href="https://www.facebook.com/SuperLatinStoreEC/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<i class="fab fa-facebook social-media" />
-								</a>
-								<a href="#">
-									<i class="fab fa-twitter-square social-media" />
 								</a>
 								<a href="https://www.instagram.com/superlatinstorellc">
 									<i class="fab fa-instagram-square social-media" />

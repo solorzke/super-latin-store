@@ -51,10 +51,18 @@ const Navigation = () => {
 								<a href="tel:+9739913030">
 									<i className="fas fa-phone footer-icon" />{' '}
 								</a>
-								<a href="https://www.facebook.com/SuperLatinStoreEC/" target="_blank">
+								<a
+									href="https://www.facebook.com/SuperLatinStoreEC/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<i className="fab fa-facebook-f footer-icon" />{' '}
 								</a>
-								<a href="https://www.instagram.com/superlatinstorellc" target="_blank">
+								<a
+									href="https://www.instagram.com/superlatinstorellc"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<i className="fab fa-instagram footer-icon" />{' '}
 								</a>
 								<a href="#" onClick={() => setShow(true)}>
@@ -125,6 +133,7 @@ const Navigation = () => {
 							allowFullScreen=""
 							aria-hidden="false"
 							tabIndex="0"
+							title="Maps"
 						/>
 					</Col>
 				</Row>

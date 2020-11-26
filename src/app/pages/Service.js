@@ -36,20 +36,23 @@ const ServicePage = () => {
 		[ location.pathname ]
 	);
 
-	useEffect(() => {
-		window.innerWidth < 950 ? setAdjust(true) : setAdjust(false);
-		const handleResize = () => {
-			switch (window.innerWidth < 950) {
-				case true:
-					if (!adjust) setAdjust(true);
-					break;
-				case false:
-					if (adjust) setAdjust(false);
-					break;
-			}
-		};
-		window.addEventListener('resize', handleResize);
-	});
+	useEffect(
+		() => {
+			window.innerWidth < 950 ? setAdjust(true) : setAdjust(false);
+			const handleResize = () => {
+				switch (window.innerWidth < 950) {
+					case true:
+						if (!adjust) setAdjust(true);
+						break;
+					default:
+						if (adjust) setAdjust(false);
+						break;
+				}
+			};
+			window.addEventListener('resize', handleResize);
+		},
+		[ adjust ]
+	);
 
 	return (
 		<div>
@@ -59,7 +62,7 @@ const ServicePage = () => {
 				<article>
 					<Row style={{ padding: 40, lineHeight: 2, backgroundColor: '#B3C5D7' }}>
 						<Col md={adjust ? 12 : 6}>
-							<img src={images[0]} className="img-fluid service-img" />
+							<img src={images[0]} className="img-fluid service-img" alt={service.name} />
 						</Col>
 						<Col md={adjust ? 12 : 6}>
 							<p style={{ textAlign: 'start' }}>{paragraphs[0]}</p>
@@ -70,7 +73,7 @@ const ServicePage = () => {
 							<p style={{ textAlign: 'start' }}>{paragraphs[1]}</p>
 						</Col>
 						<Col md={adjust ? 12 : 6}>
-							<img src={images[1]} className="img-fluid service-img" />
+							<img src={images[1]} className="img-fluid service-img" alt={service.name} />
 						</Col>
 					</Row>
 				</article>

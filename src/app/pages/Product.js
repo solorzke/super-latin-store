@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useEffect, useState } from 'react';
-import { Container, Row, Col, Badge, Breadcrumb, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Badge, Breadcrumb } from 'react-bootstrap';
 import { useLocation, useParams } from 'react-router-dom';
 import Navbar from '../components/Nav/Navbar';
 import ProductNav from '../components/Nav/Products';
@@ -19,6 +19,7 @@ const ProductPage = () => {
 		}
 		return obj !== null ? obj : Products[0];
 	};
+	const location = useLocation();
 	const [ currentImage, setCurrentImage ] = useState(0);
 	const [ adjust, setAdjust ] = useState(false);
 	const params = useParams();
@@ -28,28 +29,26 @@ const ProductPage = () => {
 		length >= 2 ? `${product.price[0]} - ${product.price[length - 1]}` : product.price[0].toString();
 	const onClick = (index) => setCurrentImage(index);
 
-	useEffect(() => {
-		window.innerWidth < 850 ? setAdjust(true) : setAdjust(false);
-		const handleResize = () => {
-			switch (window.innerWidth > 850) {
-				case true:
-					if (!adjust) setAdjust(true);
-					break;
-				case false:
-					if (adjust) setAdjust(false);
-					break;
-			}
-		};
-		window.addEventListener('resize', handleResize);
-	});
+	useEffect(
+		() => {
+			window.innerWidth < 850 ? setAdjust(true) : setAdjust(false);
+			const handleResize = () => {
+				switch (window.innerWidth > 850) {
+					case true:
+						if (!adjust) setAdjust(true);
+						break;
+					default:
+						if (adjust) setAdjust(false);
+						break;
+				}
+			};
+			window.addEventListener('resize', handleResize);
+		},
+		[ adjust ]
+	);
 
 	// Scroll to top if path changes
-	useLayoutEffect(
-		() => {
-			window.scrollTo(0, 0);
-		},
-		[ useLocation().pathname ]
-	);
+	useLayoutEffect(() => window.scrollTo(0, 0), [ location.pathname ]);
 
 	const ProductInfo = () => {
 		return (

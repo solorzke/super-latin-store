@@ -38,7 +38,7 @@ export class ServiceBars extends Component {
 				if (!this.state.adjust)
 					this.setState({ adjust: true }, () => console.log('adjust: ' + this.state.adjust));
 				return;
-			case false:
+			default:
 				if (this.state.adjust)
 					this.setState({ adjust: false }, () => console.log('adjust: ' + this.state.adjust));
 				return;
@@ -97,7 +97,7 @@ export class ServiceBars extends Component {
 			case 'second':
 				sequence = 'third';
 				break;
-			case 'third':
+			default:
 				sequence = 'first';
 				break;
 		}

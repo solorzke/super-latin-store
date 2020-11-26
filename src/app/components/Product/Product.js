@@ -7,26 +7,29 @@ export const ProductCard = ({ data, width = 'auto', height = 500, pos }) => {
 	const [ columns, setColumns ] = useState(4);
 	const [ tablet, setTablet ] = useState(false);
 
-	useEffect(() => {
-		window.innerWidth < 500 ? setColumns(12) : setColumns(4);
-		window.innerWidth < 769 && window.innerWidth > 500 ? setTablet(true) : setTablet(false);
+	useEffect(
+		() => {
+			window.innerWidth < 500 ? setColumns(12) : setColumns(4);
+			window.innerWidth < 769 && window.innerWidth > 500 ? setTablet(true) : setTablet(false);
 
-		const handleResize = () => {
-			switch (window.innerWidth) {
-				case window.innerWidth < 500:
-					if (columns !== 12) setColumns(12);
-					break;
-				case window.innerWidth > 500 && window.innerWidth < 769:
-					if (columns !== 4) setColumns(4);
-					if (!tablet) setTablet(true);
-					break;
-				case window.innerWidth > 769:
-					if (tablet) setTablet(false);
-					break;
-			}
-		};
-		window.addEventListener('resize', handleResize);
-	});
+			const handleResize = () => {
+				switch (window.innerWidth) {
+					case window.innerWidth < 500:
+						if (columns !== 12) setColumns(12);
+						break;
+					case window.innerWidth > 500 && window.innerWidth < 769:
+						if (columns !== 4) setColumns(4);
+						if (!tablet) setTablet(true);
+						break;
+					default:
+						if (tablet) setTablet(false);
+						break;
+				}
+			};
+			window.addEventListener('resize', handleResize);
+		},
+		[ columns, tablet ]
+	);
 	const path = data.path;
 	return (
 		<Col md={columns}>
@@ -79,26 +82,29 @@ export const ProductGrid = ({ data, type, width = 'auto', height = 500, pos = 'c
 
 export const Point = ({ data, setFluid }) => {
 	const [ columns, setColumns ] = useState(4);
-	useEffect(() => {
-		window.innerWidth < 414 ? setColumns(12) : setColumns(4);
-		const handleResize = () => {
-			switch (window.innerWidth < 414) {
-				case true:
-					if (columns === 4) {
-						setColumns(12);
-						setFluid(true);
-					}
-					break;
-				case false:
-					if (columns === 12) {
-						setColumns(4);
-						setFluid(false);
-					}
-					break;
-			}
-		};
-		window.addEventListener('resize', handleResize);
-	});
+	useEffect(
+		() => {
+			window.innerWidth < 414 ? setColumns(12) : setColumns(4);
+			const handleResize = () => {
+				switch (window.innerWidth < 414) {
+					case true:
+						if (columns === 4) {
+							setColumns(12);
+							setFluid(true);
+						}
+						break;
+					default:
+						if (columns === 12) {
+							setColumns(4);
+							setFluid(false);
+						}
+						break;
+				}
+			};
+			window.addEventListener('resize', handleResize);
+		},
+		[ columns, setFluid ]
+	);
 
 	return (
 		<Col md={columns}>

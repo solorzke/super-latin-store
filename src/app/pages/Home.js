@@ -22,7 +22,7 @@ const HomePage = () => {
 					case true:
 						if (!adjust) setAdjust(true);
 						break;
-					case false:
+					default:
 						if (adjust) setAdjust(false);
 						break;
 				}
