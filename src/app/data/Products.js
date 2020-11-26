@@ -417,7 +417,7 @@ export const Services = {
 	BOOST_RECHARGE: {
 		path: '/products/service/recharge',
 		name: 'Recargas Telefónicas',
-		description: `Necesitas una recarga? Permítanos ayudarlo a agregar más minutos a su cuenta de Boss Revolution!`,
+		description: `Necesitas una recarga? Permítanos ayudarlo a agregar más minutos a su telefono.`,
 		image: BossRevolution,
 		images: [ Money8, Money9 ],
 		paragraphs: [
@@ -433,7 +433,7 @@ export const Services = {
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Necesitas una recarga? Permítanos ayudarlo a agregar más minutos a su cuenta de Boss Revolution!`
+		tagline: `Necesitas una recarga? Permítanos ayudarlo a agregar más minutos a su telefono.`
 	},
 
 	MONEY_ORDER: {

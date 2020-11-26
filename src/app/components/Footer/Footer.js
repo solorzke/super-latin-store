@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Table, Figure, Image, Modal } from 'react-bootstrap';
-import Button from '../Button/Button';
+import { Container, Row, Col, Table, Figure } from 'react-bootstrap';
 import ModalImage from '../Modal/Modal';
 import { Link } from 'react-router-dom';
 import { Services } from '../../data/Products';
 import Logo from '../../images/sls.png';
-import USA from '../../images/usa.png';
-import ESP from '../../images/spain.png';
 import './Footer.css';
 
 const Footer = () => {
