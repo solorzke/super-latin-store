@@ -2,11 +2,11 @@ import React, { useLayoutEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from '../components/Nav/Navbar';
 import Footer from '../components/Footer/Footer';
-import Newsletter from '../components/Newsletter/Newsletter';
 import { Services, Products } from '../data/Products';
 import { Nav } from 'react-bootstrap';
 import { ProductGrid } from '../components/Product/Product';
 import { Container } from 'react-bootstrap';
+// import Newsletter from '../components/Newsletter/Newsletter';
 
 const ProductsPage = () => {
 	const location = useLocation();
@@ -44,7 +44,7 @@ const ProductsPage = () => {
 				{tab === 'services' && <ProductGrid data={Services} type="card" pos="50% 25%" />}
 				{tab === 'products' && <ProductGrid data={Products} type="card" pos="50% 25%" />}
 			</Container>
-			<Newsletter />
+			{/* <Newsletter /> */}
 			<Footer />
 		</div>
 	);

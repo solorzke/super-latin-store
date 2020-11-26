@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
-import Newsletter from '../components/Newsletter/Newsletter';
 import { ProductCard } from '../components/Product/Product';
 import { Container, Row, Col, Pagination } from 'react-bootstrap';
 import { Summary } from '../data/Summary';
@@ -10,6 +9,7 @@ import { Services } from '../data/Products';
 import { Fade, LightSpeed } from 'react-reveal';
 import { ServiceBars } from '../components/Tabs/Main';
 import { ServiceText, Label } from '../data/Goals';
+// import Newsletter from '../components/Newsletter/Newsletter';
 
 const HomePage = () => {
 	const [ chevron, setChevron ] = useState('left');
@@ -93,7 +93,7 @@ const HomePage = () => {
 				</Fade>
 			</section>
 			<ServiceBars label={Label} data={ServiceText} name="piece-light" size={500} />
-			<Newsletter />
+			{/* <Newsletter /> */}
 			<Footer />
 		</div>
 	);
