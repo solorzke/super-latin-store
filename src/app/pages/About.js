@@ -48,15 +48,16 @@ const AboutPage = () => {
 
 	return (
 		<div>
-			<Navbar active="About" />
-			<Banner title="Super Latin Store" subtitle="About Us" hideBtn={true} />
+			<Navbar active="Sobre Nosotros" />
+			<Banner title="Super Latin Store" subtitle="Sobre Nosotros" hideBtn={true} />
 			<Container>
 				<header>
 					<ParallaxProvider>
 						<Parallax className="custom-class" y={y} tagOuter="figure">
 							<div className="quote">
 								<h2 className="quote-text">
-									Based in Newark, Proudly Serving To Our Latin Community 24/7, All Year Round.
+									Con sede en Newark, orgullosamente sirviendo a nuestra comunidad latina 24/7, todo
+									el año.
 								</h2>
 							</div>
 						</Parallax>
@@ -67,42 +68,46 @@ const AboutPage = () => {
 			<Container>
 				<article className="summary">
 					<p>
-						Super Latin Store was established several years ago in Newark, NJ as a spot to help serve to the
-						latin community that's rich in both culture and respect. As fellow Ecuadorians ourselves, we
-						come to understand how much pride we take in the work we put into to serve to the community, at
-						the highest level of dedication and care. Our store serves to provide you with a wide array of
-						items and services, ranging from food, medicine and clothing, to more financial matters like
-						money orders and bill payments.
+						Super Latin Store se estableció hace varios años en Newark, Nueva Jersey, como un lugar para
+						ayudar a comunidad latina rica en cultura y respeto. Como compatriotas ecuatorianos, nosotros
+						llegar a comprender cuánto nos enorgullecemos del trabajo que realizamos para servir a la
+						comunidad, en el más alto nivel de dedicación y cuidado. Nuestra tienda sirve para ofrecerle una
+						amplia gama de artículos y servicios, que van desde alimentos, medicinas y ropa, hasta asuntos
+						más financieros como giros postales y pagos de facturas.
 					</p>
 					<p>
-						Our store is open all week long from 8 A.M. to 9 P.M. including the weekends. Our business
-						provides the community with some of the most popular latin goods available, with a wide list of
-						options ranging from tuna, mote, variety in medicinal herbs and remedies, albacore, popular
-						Ecuadorian drinks like Guitig, soda, beans, and snacks. We also provide gift items such as
-						plushies, perfumes/colognes, jewelery, hats/caps, bags, glasses, and clothing items. Super Latin
-						Store is also partnered with Boost Mobile as a local distributor, meaning we sell some of the
-						latest smart phones in the industry hooked up with Boost Mobile's network and provide you
-						assistance with creating or managing your Boost Mobile service. Stop by our store to learn more
-						information about opening an account with Boost Mobile, or switching carriers.
+						Nuestra tienda está abierta toda la semana desde las 8 a.m. a las 9 de la noche incluidos los
+						fines de semana. Nuestro negocio proporciona a la comunidad algunos de los productos latinos más
+						populares disponibles, con una amplia lista de opciones que van desde atún, mote, variedad en
+						hierbas y remedios medicinales, atún blanco, popular Bebidas ecuatorianas como Guitig, gaseosas,
+						frijoles y botanas. También proporcionamos artículos de regalo como peluches, perfumes /
+						colonias, joyas, sombreros / gorras, bolsos, gafas y prendas de vestir. Super latina Store
+						también está asociada con Boost Mobile como distribuidor local, lo que significa que vendemos
+						algunos de los Los últimos teléfonos inteligentes de la industria conectados con la red de Boost
+						Mobile y le brindan asistencia para crear o administrar su servicio Boost Mobile. Pasa por
+						nuestra tienda para aprender más información sobre cómo abrir una cuenta con Boost Mobile o
+						cambiar de proveedor.
 					</p>
 					<p>
-						We also provide financial services such as money transactions to various destinations across the
-						world including Central and South America, and Europe. Whether you're someone who needs to send
-						money to someone or make a bank deposit remotely, we can assist you using our licensed AFEX
-						network to connect you with any financial institutions around the world and securely send your
-						hard earned cash, safe and sound. Just bring proof of ID and of the beneficiary to get started.
-						Aside from that, we also complete your billing payments for companies such as PSEG, Cablevision,
-						and Internet for you with no hassle and on time. Need to pay off your monthly bill for your
-						prepaid phone? Just tell us the phone service company you're with and we can make direct
-						payments to them so you can continue using your phone. Want to exchange your checks for cash? We
-						can handle that too. Pay us a visit soon with anything you need from us, we're there for you!
+						También brindamos servicios financieros como transacciones de dinero a varios destinos en todo
+						el mundo, incluyendo América Central y del Sur, y Europa. Si eres alguien que necesita enviar
+						dinero a alguien o realizar un depósito bancario de forma remota, podemos ayudarlo utilizando
+						nuestro AFEX con licencia red para conectarlo con instituciones financieras de todo el mundo y
+						enviar de forma segura su efectivo ganado con esfuerzo, sano y salvo. Para comenzar, solo traiga
+						prueba de identificación y del beneficiario. Aparte de eso, también completamos sus pagos de
+						facturación para empresas como PSEG, Cablevision, e Internet para usted sin problemas y a
+						tiempo. Necesita pagar su factura mensual por su ¿teléfono prepagado? Simplemente díganos la
+						compañía de servicio telefónico con la que está y podemos hacer pagos a ellos para que pueda
+						seguir usando su teléfono. ¿Quiere cambiar sus cheques por efectivo? Nosotros puede manejar eso
+						también. Visítenos pronto con cualquier cosa que necesite de nosotros, ¡estamos a su
+						disposición!
 					</p>
 				</article>
 				<hr />
 			</Container>
 			<Container>
-				<p className="banner-text">What We Are Best At</p>
-				<h2 className="banner-text">Our Services</h2>
+				<p className="banner-text">En Qué Somos Mejores</p>
+				<h2 className="banner-text">Nuestros Servicios</h2>
 				<Zoom left>
 					<ProductGrid data={Services} type="point" />
 				</Zoom>
@@ -110,10 +115,10 @@ const AboutPage = () => {
 			<div className="wrap">
 				<div className="section-bg" style={{ backgroundImage: `url(${Bills})` }}>
 					<Container fluid>
-						<h1 className="section-heading">Have Questions?</h1>
+						<h1 className="section-heading">¿Tiene preguntas?</h1>
 						<p className="section-heading">
-							Please feel free to contact us via email with any questions you may have and we'll try our
-							best to get back to you soon!
+							No dude en contactarnos por correo electrónico con cualquier pregunta que pueda tener y
+							probaremos nuestro ¡Es mejor responder pronto!
 						</p>
 						<p className="section-heading">
 							<Button label="Send Message" onClick={() => sendMessage()} />

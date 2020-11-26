@@ -37,7 +37,7 @@ const Bar = ({ active }) => {
 	return (
 		<div>
 			<div className="light-banner">
-				<p>30 Wilson Avenue, Newark, NJ 07105 | Mon - Sun @ 8am - 9pm</p>
+				<p>30 Wilson Avenue, Newark, NJ 07105 | Lun - Dom @ 8am - 9pm</p>
 			</div>
 			<Navbar
 				style={{ backgroundColor: '#7392B7', fontFamily: "'Bebas Neue', cursive" }}

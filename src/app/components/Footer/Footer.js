@@ -43,9 +43,9 @@ const Navigation = () => {
 							/>
 						</Figure>
 						<h6 style={{ width: '60%', paddingTop: 10, paddingBottom: 10 }}>
-							Fast &amp; Quality Service To Everyone!
+							Servicio Rápido y De Calidad Para Todos!
 						</h6>
-						<h6>Connect With Us</h6>
+						<h6>Conecta con nosotros</h6>
 						<Row>
 							<Col>
 								<a href="mailto:superlatinstore@outlook.com">
@@ -66,27 +66,13 @@ const Navigation = () => {
 								<ModalImage show={show} onHide={() => setShow(false)} />
 							</Col>
 						</Row>
-						<Row style={{ paddingTop: 10 }}>
-							<Col>
-								<Link to="/">
-									<Image src={USA} style={{ width: 20, height: 20 }} />
-									<p>Eng</p>
-								</Link>
-							</Col>
-							<Col>
-								<Link to="/">
-									<Image src={ESP} style={{ width: 20, height: 20 }} />
-									<p>Esp</p>
-								</Link>
-							</Col>
-						</Row>
 					</div>
 					<Col md={{ span: 4 }}>
 						<Table borderless responsive="md">
 							<thead>
 								<tr>
-									<th className="banner-title heading-font">Services</th>
-									<th className="banner-title heading-font">Contact</th>
+									<th className="banner-title heading-font">Servicios</th>
+									<th className="banner-title heading-font">Contacto</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -95,7 +81,7 @@ const Navigation = () => {
 										<Link to={Services.BOOST_RECHARGE.path}>{Services.BOOST_RECHARGE.name}</Link>
 									</td>
 									<td>
-										<Link to="/location">Location</Link>
+										<Link to="/location">Ubicación</Link>
 									</td>
 								</tr>
 								<tr>
@@ -103,7 +89,7 @@ const Navigation = () => {
 										<Link to={Services.CASH_CHECKS.path}>{Services.CASH_CHECKS.name}</Link>
 									</td>
 									<td>
-										<Link to="/location">Office Hours</Link>
+										<Link to="/location">Horas De Oficina</Link>
 									</td>
 								</tr>
 								<tr>
@@ -111,7 +97,7 @@ const Navigation = () => {
 										<Link to={Services.MONEY_ORDER.path}>{Services.MONEY_ORDER.name}</Link>
 									</td>
 									<td>
-										<Link to="/location">Get Directions</Link>
+										<Link to="/location">Obtener Las Direcciones</Link>
 									</td>
 								</tr>
 								<tr>

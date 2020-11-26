@@ -1,21 +1,21 @@
 export const Links = [
 	{
-		name: 'Home',
+		name: 'Inicio',
 		path: '/'
 	},
 
 	{
-		name: 'About',
+		name: 'Sobre Nosotros',
 		path: '/about'
 	},
 
 	{
-		name: 'Products',
+		name: 'Productos',
 		path: '/products'
 	},
 
 	{
-		name: 'Location',
+		name: 'Ubicación',
 		path: '/Location'
 	}
 ];

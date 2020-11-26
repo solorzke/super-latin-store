@@ -103,90 +103,86 @@ import Groceries3 from '../images/groceries/3.jpeg';
 export const Products = [
 	{
 		path: '/products/product/toys',
-		name: 'Toys',
-		description: `Grab a plushie or stuffed animal to give as a gift to your loved one for the right occasion. Look for the right one that
-		has the right size and describes how you care about them. We have from Mickey Mouse, Bears, and others.`,
+		name: 'Juguetes',
+		description: `Coge un peluche o un animal de peluche para regalar a tu ser querido en la ocasión adecuada. Busque el correcto que
+		tiene el tamaño correcto y describe cómo te preocupas por ellos. Tenemos de Mickey Mouse, Osos y otros.`,
 		images: [ Toy1, Toy2 ],
 		image: Toy1,
 		alt: 'Toys, Stuffed Animals',
 		price: [ 20, 30, 40 ],
 		available: true,
-		tagline: `Plushies, big and small - for gifts`,
-		points: [ 'Various sizes including life size.', 'Mickey Mouse, Sonic, Animals' ]
+		tagline: `Peluches, grandes y pequeños, para regalos`,
+		points: [ 'Varios tamaños, incluido el tamaño natural.', 'Mickey Mouse, Sonic, Animales' ]
 	},
 
 	{
 		path: '/products/product/snacks',
-		name: 'Snacks',
-		description: `Need a quick bite before you head out? Grab a bag of chips or other snacks at our store. Grab Bon Bons, Tango, Manicho, and other 
-		imported snacks that you like.`,
+		name: 'Golosinas',
+		description: `¿Necesitas un bocado rápido antes de salir? Coge una bolsa de patatas fritas u otros bocadillos en nuestra tienda. Coge Bon Bons, Tango, Manicho y otros
+		snacks importados que te gusten.`,
 		images: [ Snack1, Snack2, Snack3, Snack4 ],
 		image: Snack1,
 		alt: 'Snacks',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Platain Chips, Candy, Bon Bons, Tango and more.`,
-		points: [ 'Manicho, Tango, Snickers, Huevitos', 'Chips, Plaintain Chips', 'Bon Bons' ]
+		tagline: `Chifles, Dulces, Bon Bons, Tango y mas.`,
+		points: [ 'Manicho, Tango, Snickers, Huevitos', 'Chips, Chifles', 'Bon Bons' ]
 	},
 
 	{
 		path: '/products/product/groceries',
-		name: 'Groceries',
-		description: `At your convenience, we also provide grocery items to add to your kitchen whenever you're in the need to cook.
-		We have various items that one would need to prepare for their lunch or dinner. Grains, Beans, Fish, Vegetables, Spices, Mote and more.`,
+		name: 'Comestibles',
+		description: `A su conveniencia, también proporcionamos artículos comestibles para agregar a su cocina cuando necesite cocinar.
+		Tenemos varios artículos que uno necesitaría preparar para su almuerzo o cena. Granos, Frijoles, Pescado, Verduras, Especias, Mote y más.`,
 		images: [ Groceries1, Groceries2, Groceries3 ],
 		image: Groceries1,
 		alt: 'Groceries',
-		price: [ 'Varies per item' ],
+		price: [ 'Varía por artículo' ],
 		available: true,
-		tagline: `Albacore, Grains, Mote, Corn, Beans, Yuca, Spices.`,
-		points: [ 'Albacore, Grains, Mote, Corn, Beans, Yuca, Spices.' ]
+		tagline: `Albacora, Granos, Mota, Maíz, Frijoles, Yuca, Especias.`,
+		points: [ 'Albacora, Granos, Mote, Choclo, Frijoles, Yuca, Condimentos.' ]
 	},
 
 	{
 		path: '/products/product/medicine',
-		name: 'Medicine & Herbs',
-		description: `Feeling under the weather? Our store provides quick remedies to combat the flu, headaches, pain, fever, soreness, and others.
-		We provide over the counter medication that can be located at any pharmacy here at your convenience, when you need it.`,
+		name: 'Medicina y Hierbas',
+		description: `Me siento mal? Nuestra tienda ofrece remedios rápidos para combatir la gripe, los dolores de cabeza, el dolor, la fiebre, el dolor y otros.
+		Ofrecemos medicamentos de venta libre que se pueden encontrar en cualquier farmacia aquí a su conveniencia, cuando lo necesite.`,
 		images: [ Medicine1, Medicine2, Medicine3, Medicine4, Medicine5 ],
 		image: Medicine1,
 		alt: 'Medicine & Herbs',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Theraflu, Alka-Seltzer, Aspirin, Vaporub, Sangre De Drago and more.`,
+		tagline: `Theraflu, Alka-Seltzer, Aspirina, Vaporub, Sangre De Drago y mas.`,
 		points: [
-			'Headaches: Tylenol, Advil, Bayer, Finalin Forte',
+			'Dolores De Cabeza: Tylenol, Advil, Bayer, Finalin Forte',
 			'Flu: Singripal, Lemon FLu, Theraflu',
-			'Indigestion: Tums, Pepto Bismol',
-			'Sores & Scrapes: Sangre de Drago',
-			'Menthol: Chinese Menthol, Vaporub'
+			'Indigestión: Tums, Pepto Bismol',
+			'Llagas y Raspaduras: Sangre de Drago',
+			'Mentol: Mentol Chino, Vaporub'
 		]
 	},
 
 	{
 		path: '/products/product/jewels',
-		name: 'Jewelery',
-		description: `Jewelery is a special thing that compliments the look on the wearer and our store provides you with a selection of various types
-		to choose from including earings, rings, bracelets and other pieces of jewelery akin to latin-american culture such as 7 metals bracelets and 
-		more.`,
+		name: 'Joyería',
+		description: `Las joyas son algo especial que complementa el aspecto del usuario y nuestra tienda le ofrece una selección de varios tipos.
+		para elegir, incluidos aretes, anillos, pulseras y otras piezas de joyería afines a la cultura latinoamericana, como pulseras de 7 metales y
+		más.`,
 		images: [ Jewels1, Jewels2, Jewels3, Jewels4 ],
 		image: Jewels1,
 		alt: 'Jewels',
 		price: [ 20, 30, 40 ],
 		available: true,
-		tagline: `Bracelets, earings, necklaces, rings.`,
-		points: [
-			'Earings, necklances, rings',
-			'Silver, Gold, Bronze available',
-			'7 Metal Bracelets and wrist bands available'
-		]
+		tagline: `Pulseras, pendientes, collares, anillos.`,
+		points: [ 'Pendientes, collares, anillos', 'Plata, oro, bronce disponible', 'Pulseras de 7 metales disponible' ]
 	},
 
 	{
 		path: '/products/product/perfumes',
 		name: 'Perfumes',
-		description: `Visit our store and take a look at the long list of brands we have available for both men and women. We have colognes and 
-		perfumes from high quality brands such as Ralph Lauren, Yanbal, Armani and many more.`,
+		description: `Visita nuestra tienda y echa un vistazo a la larga lista de marcas que tenemos disponibles tanto para hombre como para mujer. Tenemos colonias y
+		perfumes de marcas de alta calidad como Ralph Lauren, Yanbal, Armani y muchas más.`,
 		images: [ Perfume1, Perfume2, Perfume3, Perfume4, Perfume5 ],
 		image: Perfume1,
 		alt: 'Perfume',
@@ -194,178 +190,178 @@ export const Products = [
 		available: true,
 		tagline: `Yanbal Cologne, Polo Ralph Lauren, Giorgio Armani, Bleu De Chanel`,
 		points: [
-			'Yanbal colognes/perfumes available for selection',
-			'High quality brands available',
-			'100% Authentic'
+			'Colonias/perfumes de Yanbal disponibles para su selección',
+			'Marcas de alta calidad disponibles',
+			'100% Autentico'
 		]
 	},
 
 	{
 		path: '/products/product/masks',
-		name: 'COVID-19 Masks',
-		description: `With the ongoing COVID-19 Pandemic continuing to march on, its important to continue basic safety procedures and wear a 
-		mask to fight against the virus and protect the safety of ourselves and those around us. We sell high quality masks ranging up to 6 
-		times the protective layer to ensure a safety to yourself and others.`,
+		name: 'COVID-19 Mascarillas',
+		description: `Con la pandemia de COVID-19 en curso que continúa su marcha, es importante continuar con los procedimientos básicos de seguridad y usar un
+		máscara para luchar contra el virus y proteger nuestra seguridad y la de quienes nos rodean. Vendemos máscaras de alta calidad que van hasta 6
+		veces la capa protectora para garantizar su seguridad y la de los demás.`,
 		images: [ Mask1, Mask2, Mask3, Mask4 ],
 		image: Mask1,
 		alt: 'Masks',
 		price: [ 1, 10, 15 ],
 		available: true,
-		tagline: `KN-95 Masks, Surgical Masks, Designer Masks, Packs of Masks and more.`,
+		tagline: `KN-95 mascarillas, máscaras de diseñador, paquetes de máscarillas y más.`,
 		points: [
-			'Surgical Masks, Military Issue, KN-95 masks available',
-			'Designer masks for a more fashionable yet secure look',
-			'Size fits all'
+			'Máscaras quirúrgicas, edición militar, máscaras KN-95 disponibles',
+			'Máscaras de diseñador para un look más moderno pero seguro',
+			'El tamaño se adapta a todos'
 		]
 	},
 
 	{
 		path: '/products/product/humitas',
-		name: 'Humitas',
-		description: `Some of the most popular dishes in our latin community, the humita and tamale are a staple of our culture and we sell them here too!
-		Because of the popular nature of these items, they sell out very quickly. If you're interested in ordering some, please consider placing an order early or the day before.
-		These items are only available on the weekends.`,
+		name: 'Humitas y Tamales',
+		description: `Algunos de los platos más populares de nuestra comunidad latina, la humita y el tamal son un elemento básico de nuestra cultura y ¡los vendemos aquí también!
+		Debido a la naturaleza popular de estos artículos, se agotan muy rápidamente. Si está interesado en hacer un pedido, considere hacer un pedido antes o el día anterior.
+		Estos artículos solo están disponibles los fines de semana.`,
 		images: [ Huma1 ],
 		image: Huma1,
 		alt: 'Humitas',
 		price: [ 2, 2.5 ],
 		//0, 5, 6 === Sun, Friday, Sat
 		available: [ 0, 5, 6 ].includes(new Date().getDay()),
-		tagline: `Fresh Ecuadorian Humitas and Tamales - only available on weekends.`,
+		tagline: `Humitas y tamales ecuatorianos frescos: solo disponible los fines de semana.`,
 		points: [
-			'Fresh Humitas and Tamales available in the morning.',
-			'Only available on Saturdays and Sundays.',
-			'Consider placing an order early to make sure you can get some.'
+			'Humitas y tamales frescos disponibles en la mañana.',
+			'Solo disponible los sábados y domingos.',
+			'Considere hacer un pedido con anticipación para asegurarse de que pueda obtener algunos.'
 		]
 	},
 
 	{
 		path: '/products/product/albacora',
 		name: 'Albacora',
-		description: `Can't make an encebollado without Albacore. Rather than making a trip to the fishing market, stop by to pick up albacore, 
-		popular among Ecuadorians, and save yourself money and time.`,
+		description: `No se puede hacer un encebollado sin albacora. En lugar de hacer un viaje al mercado de pesca, pasa a recoger atún blanco,
+		popular entre los ecuatorianos, y ahórrese dinero y tiempo.`,
 		images: [ Fish1, Fish2, Fish3 ],
 		image: Fish2,
 		alt: 'Albacora',
 		price: [ 6 ],
 		available: true,
-		tagline: `Frozen Albacore Filet, popular for Encebollados.`,
-		points: [ '$6.5 per lb' ]
+		tagline: `Filete de albacora congelado, popular para Encebollados.`,
+		points: [ '$6.5 por lb' ]
 	},
 
 	{
 		path: '/products/product/calling-cards',
-		name: 'Calling Cards',
-		description: `Use a calling card to make long distance calls to anyone anywhere at low cost, with great phone 
-		service provided by companies such as Tigo, Claro, Boss Revolution and more`,
+		name: 'Tarjetas de Llamadas',
+		description: `Use una tarjeta de llamadas para hacer llamadas de larga distancia a cualquier persona en cualquier lugar a bajo costo, con un teléfono excelente
+		servicio brindado por empresas como Tigo, Claro, Boss Revolution y más`,
 		images: [ Card1, Card2, Card3 ],
 		image: Card1,
 		alt: 'Calling Cards',
 		price: [ 2, 5 ],
 		available: true,
-		tagline: `Calling Cards for Boss Revolution, Tigo, Yellow, and Claro.`,
+		tagline: `Tarjetas telefónicas para Boss Revolution, Tigo, Yellow y Claro.`,
 		points: [
-			'Use calling cards anywhere at any time.',
-			'Phone service providers include: Tigo, Claro, Boss Revloution, Yellow.',
-			'Available from $2, $5, $7, and $10'
+			'Utilice tarjetas telefónicas en cualquier lugar y en cualquier momento.',
+			'Los proveedores de servicios telefónicos incluyen: Tigo, Claro, Boss Revloution, Yellow.',
+			'Disponible desde $ 2, $ 5, $ 7 y $ 10'
 		]
 	},
 
 	{
 		path: '/products/product/beverages',
-		name: 'Beverages',
-		description: `We have beverages including imported goods and dairy products when available. Brands like Coca-Cola, Redbull, Gatorade, Guitig,
-		Goya, Snapple and more.`,
+		name: 'Bebidas',
+		description: `Tenemos bebidas que incluyen productos importados y productos lácteos cuando están disponibles. Marcas como Coca-Cola, Redbull, Gatorade, Guitig,
+		Goya, Snapple y más.`,
 		images: [ Drink1, Drink2, Drink3, Drink4 ],
 		image: Drink1,
 		alt: 'Beverages',
 		price: [ 1, 2, 3 ],
 		available: true,
-		tagline: `Sodas, Energy Drinks, Water, Snapple, Dairy.`,
+		tagline: `Refrescos, Bebidas Energéticas, Agua, Snapple, Lácteos.`,
 		points: [
 			'Sodas: Coca Cola, Sprite, Pepsi, Manzana, Inca Cola, Tropical',
-			'Energy Drinks: Redbull, Monster Energy, Gatorade',
-			'Juice: Aloe, Snapple, Cocotal, Fruit Juice',
-			'Water: Guitig, Castello, Poland Springs',
-			'Dairy: Yogurt, Milk'
+			'Bebidas energéticas: Redbull, Monster Energy, Gatorade',
+			'Jugo: Aloe, Snapple, Cocotal, Jugo de frutas',
+			'Agua: Guitig, Castello, Poland Springs',
+			'Lácteos: yogur, leche'
 		]
 	},
 
 	{
 		path: '/products/product/copies',
-		name: 'Copies',
-		description: `Need to print a document? Make Copies? Create a Word Document? Pay us a visit where we can help you use our printing station to 
-		print documents, make copies and create ones too. `,
+		name: 'Copias',
+		description: `Necesitas imprimir un documento? Hacer copias? Crear un documento de Word? Visítenos donde podemos ayudarlo a usar nuestra estación de impresión para
+		imprima documentos, haga copias y cree también.`,
 		images: [ Copies1 ],
 		image: Copies1,
 		alt: 'Copies',
 		price: [ 1 ],
 		available: true,
-		tagline: `Colored or Non-Colored copies and scans of documents.`,
+		tagline: `Copias y escaneos de documentos en color o sin color.`,
 		points: [
-			'Make copies of PDF Documents up to 20 pages.',
-			'Scan documents',
-			'Create your Word Documents to print for later.'
+			'Haga copias de documentos PDF de hasta 20 páginas.',
+			'Escanear documentos',
+			'Cree sus documentos de Word para imprimirlos más tarde.'
 		]
 	},
 
 	{
 		path: '/products/product/electronics',
-		name: 'Electronics',
-		description: `We have a selection of various different types of electronics to meet your needs for any purpose ranging from chargers 
-		to surveliance cameras. The list includes:`,
+		name: 'Electrónicos',
+		description: `Tenemos una selección de varios tipos diferentes de electrónica para satisfacer sus necesidades para cualquier propósito, desde cargadores
+		a las cámaras de vigilancia. La lista incluye:`,
 		images: [ Ele1, Ele2, Ele3, Ele4 ],
 		image: Ele1,
 		alt: 'Electronics',
-		price: [ 'Varies per item' ],
+		price: [ 'Varía por artículo' ],
 		available: true,
-		tagline: `Headphones, Charging cables, cases, protectors, speakers.`,
+		tagline: `Audifonos, Cables de carga, cases, protectors, speakers.`,
 		points: [
-			'Phone chargers, cables, cases, screen protectors',
-			'Bluetooth speakers and headphones/airpods',
-			'Surveliance Cameras, Antennas',
-			'TV Remote'
+			'Phone chargers, cables, protectores de telefono, protectores de pantalla',
+			'Altavoces y auriculares de Bluetooth, Airpods',
+			'Cámaras Surveliance, Antenas',
+			'Controles de remoto'
 		]
 	},
 
 	{
 		path: '/products/product/smart-phones',
-		name: 'Smart Phones',
-		description: `Thanks to Boost Mobile, we can help you with your purchase of any of our smart phones when you switch 
-		to Boost Mobile. We have some of the best and affordable smart phones available now including iPhones, Samsung A Series 10, 20, 21 and more.
-		All kept up to date at a low cost to you. We also offer free upgrades to any of Boost's exisiting members (subject to whomever qualifies) and 
-		Carrier Switching at a low cost. Unlocked phones are also available for purchase.`,
+		name: 'Teléfonos',
+		description: `Gracias a Boost Mobile, podemos ayudarlo con la compra de cualquiera de nuestros teléfonos inteligentes cuando cambie
+		para Boost Mobile. Tenemos algunos de los mejores y asequibles teléfonos inteligentes disponibles ahora, incluidos iPhones, Samsung A Series 10, 20, 21 y más.
+		Todo actualizado a un bajo costo para usted. También ofrecemos actualizaciones gratuitas para cualquiera de los miembros existentes de Boost (sujeto a quien califique) y
+		Carrier Switching a bajo costo. Los teléfonos desbloqueados también están disponibles para su compra.`,
 		images: [ Phone1, Phone2, Phone3, Phone4, Phone5 ],
 		image: Phone3,
 		alt: 'Smart Phones',
-		price: [ 'Varies per phone' ],
+		price: [ 'Varía según el teléfono' ],
 		available: true,
-		tagline: `Boost-approved smart phones and unlocked phones - pricing varies`,
+		tagline: `Teléfonos inteligentes y teléfonos desbloqueados aprobados por Boost: el precio varía`,
 		points: [
-			'Android-based phones and iPhone devices available',
-			'Pick any smart phone of your choice from our catalog such as the Samsung A series when you switch to Boost Mobile.',
-			'Unlocked devices available, iPhone and Samsung.',
-			'Currently in stock: Samsung A10, A20, A21, iPhone 6 Plus'
+			'Teléfonos con Android y dispositivos iPhone disponibles',
+			'Elija cualquier teléfono inteligente de su elección de nuestro catálogo, como la serie Samsung A, cuando se cambie a Boost Mobile.',
+			'Dispositivos desbloqueados disponibles, iPhone y Samsung.',
+			'Actualmente disponible: Samsung A10, A20, A21, iPhone 6 Plus'
 		]
 	},
 
 	{
 		path: '/products/product/apparel',
-		name: 'Apparel',
-		description: `We have a wide list of apparel ranging from caps, hats, beanies, gloves, jerseys, and glasses.
-		Our jersey selection includes national soccer teams like Ecuador, or clubs like Barcelona, Liga de Quito, Emelec and more.
-		Hats are available for any type of weather, cold or sunny.`,
+		name: 'Vestidos',
+		description: `Tenemos una amplia lista de prendas que van desde gorras, sombreros, gorros, guantes, jerseys y anteojos.
+		Nuestra selección de camisetas incluye equipos nacionales de fútbol como Ecuador o clubes como Barcelona, ​​Liga de Quito, Emelec y más.
+		Los sombreros están disponibles para cualquier tipo de clima, frío o soleado.`,
 		images: [ Apparel1, Apparel2, Apparel3 ],
 		image: Apparel2,
 		alt: 'Apparel',
-		price: [ 'Varies per item' ],
+		price: [ 'Varía por artículo' ],
 		available: true,
-		tagline: `Hats, caps, scarves, shirts, gloves, jackets.`,
+		tagline: `Sombreros, gorras, bufandas, camisas, guantes, chaquetas.`,
 		points: [
-			'Hats appropriate for any weather, including beanies and ski masks',
-			'Sport Jerseys including national soccer teams and clubs',
-			'Gloves appropriate for machinery work',
-			'Sun glasses in various different sizes'
+			'Sombreros apropiados para cualquier clima, incluidos gorros y pasamontañas',
+			'Camisetas deportivas que incluyen equipos y clubes nacionales de fútbol',
+			'Guantes apropiados para trabajos en maquinaria.',
+			'Gafas de sol en varios tamaños diferentes.'
 		]
 	}
 ];
@@ -373,129 +369,129 @@ export const Products = [
 export const Services = {
 	SEND_MONEY: {
 		path: '/products/service/send-money',
-		name: 'Send Money',
-		description: "Send & Receive Money around the world using Afex's service!",
+		name: 'Enviar Dinero',
+		description: 'Envíe y reciba dinero en todo el mundo utilizando el servicio de Afex.',
 		image: AFEX,
 		images: [ Money5, Money7 ],
 		paragraphs: [
-			`Super Latin Store offers to our customers the ability to send money across the world using our AFEX Money Transfer Network, 
-			quickly and safely. AFEX allows us to set up our clients with their own accounts and prepare to send money to almost any 
-			financial institution or bank in the destination of their choice. AFEX's network is one the best global money payment providers 
-			in the country and we are honored to have them working with us to help our clients. If you're someone who needs to send money 
-			to loved ones to any country in South and Central America, or Spain, look no further because we can help you send that money 
-			quickly before the end of the day.`,
-			`Just about anyone with/without a valid piece of identification can apply to send money. We are capable of making money 
-			transfers to countries like Mexico, Honduras, Guatemala, Peru, Ecuador, Brazil, Venezuela, Colombia, Dominican Republic, 
-			Puerto Rico, Spain, United States, Chile, and others. You can decide what type of money transfer you'd wish to send, 
-			via cash pickup or bank deposit. However, bank deposit transfers requires an additional ID from the recipient in their 
-			respective country in order to proceed. Once transfers are made, they should become available for the recipient to check out
-			within the hour. Since we're logged in with the money transfer network, we're also capable of receiving money orders made 
-			from any part of the world, as long as they work within the network. Pay us a visit to start sending or receiving 
-			funds to whomever at any time.`
+			`Super Latin Store ofrece a nuestros clientes la posibilidad de enviar dinero a todo el mundo utilizando nuestra Red de Transferencia de Dinero AFEX,
+			de forma rápida y segura. AFEX nos permite configurar a nuestros clientes con sus propias cuentas y prepararnos para enviar dinero a casi cualquier
+			institución financiera o banco en el destino de su elección. La red de AFEX es uno de los mejores proveedores globales de pagos de dinero
+			en el país y nos sentimos honrados de que trabajen con nosotros para ayudar a nuestros clientes. Si eres alguien que necesita enviar dinero
+			a sus seres queridos a cualquier país de América del Sur y Central, o España, no busque más porque podemos ayudarlo a enviar ese dinero
+			rápidamente antes del final del día.`,
+			`Casi cualquier persona con o sin una identificación válida puede solicitar enviar dinero. Somos capaces de ganar dinero
+			transferencias a países como México, Honduras, Guatemala, Perú, Ecuador, Brasil, Venezuela, Colombia, República Dominicana,
+			Puerto Rico, España, Estados Unidos, Chile y otros. Puede decidir qué tipo de transferencia de dinero desea enviar,
+			mediante pago en ventanilla o depósito bancario. Sin embargo, las transferencias de depósitos bancarios requieren una identificación adicional del destinatario en su
+			país respectivo para continuar. Una vez que se realizan las transferencias, deben estar disponibles para que el destinatario las verifique.
+			dentro de una hora. Dado que estamos conectados con la red de transferencia de dinero, también podemos recibir giros postales realizados
+			de cualquier parte del mundo, siempre que trabajen dentro de la red. Visítanos para empezar a enviar o recibir
+			fondos a quien sea en cualquier momento.`
 		],
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Send & Receive Money around the world using Afex's service!`
+		tagline: `Envíe y reciba dinero en todo el mundo utilizando el servicio de Afex.`
 	},
 
 	PAY_BILL: {
 		path: '/products/service/pay-bills',
-		name: 'Pay Bills',
-		description: `Pay bills ranging from Cablevision to PSEG, Optimum, and more!`,
+		name: 'Pagar Facturas',
+		description: `Pague facturas que van desde Cablevision hasta PSEG, Optimum y más!`,
 		image: Payment,
 		images: [ Money10, Money11 ],
 		paragraphs: [
-			`Paying bills is part of life all year round and we understand there are people that struggle to figure out how to pay them when we live
-			with an fast-paced technological society with applications and computers. Its with this principle in mind that we offer to assist you 
-			in paying your bills and relieving you of the burden of figuring out how, by keeping it simple and quick. Whether its a billing payment 
-			that needs to be quickly or ahead of time, you can rest easy knowing we at Super Latin Store, take care of it for you.`,
-			`We make payments on your behalf to companies such as PSEG, Cablevision, Optimum, Verizon Fios, Parking Tickets, Water, and more. 
-			These companies and others alike, encompass utilities we use everyday like electricity, water, and internet which makes it important that you
-			make those payments on time. We also make phone bill payments for prepaid plans to companies such as Boost Mobile, Simple Mobile, Ultra Mobile,
-			T-Mobile, Verizon, and others for you. Simply bring with you your bill and we'll happily help you take care of that.`
+			`Pagar facturas es parte de la vida durante todo el año y entendemos que hay personas que luchan por descubrir cómo pagarlas cuando vivimos.
+			con una sociedad tecnológica acelerada con aplicaciones y computadoras. Es con este principio en mente que ofrecemos ayudarlo
+			en pagar sus facturas y aliviarlo de la carga de averiguar cómo, manteniéndolo simple y rápido. Si es un pago de facturación
+			que debe ser rápido o con anticipación, puede estar tranquilo sabiendo que en Super Latin Store, nos ocupamos de ello.`,
+			`Realizamos pagos en su nombre a empresas como PSEG, Cablevision, Optimum, Verizon Fios, multas de estacionamiento, agua y más.
+			Estas empresas y otras por igual, abarcan los servicios públicos que usamos todos los días, como electricidad, agua e Internet, lo que hace que sea importante que usted
+			haga esos pagos a tiempo. También realizamos pagos de facturas telefónicas para planes prepagos a empresas como Boost Mobile, Simple Mobile, Ultra Mobile,
+			T-Mobile, Verizon y otros para ti. Simplemente traiga su factura y con gusto lo ayudaremos a solucionarlo.`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Pay bills ranging from Cablevision to PSEG, Optimum, and more!`
+		tagline: `Pague facturas que van desde Cablevision hasta PSEG, Optimum y más!`
 	},
 
 	BOOST_RECHARGE: {
 		path: '/products/service/recharge',
-		name: 'Phone Recharges',
-		description: `Need a Recharge? Let us help you add more minutes to your Boss Revolution account!`,
+		name: 'Recargas Telefónicas',
+		description: `Necesitas una recarga? Permítanos ayudarlo a agregar más minutos a su cuenta de Boss Revolution!`,
 		image: BossRevolution,
 		images: [ Money8, Money9 ],
 		paragraphs: [
-			`We are partnered with Boss Revolution, a service that provides a low-cost network to make phone calls on prepaid mobile phones,
-			to our customers who regularly use prepaid phones for long distance calling. Boss Revolution allows its clients to make phone recharges
-			on their accounts to add more minutes and cellular data on their phones. Recharges are simple, choose a prepaid plan with the amount of minutes
-			and cellular data in mind, and pay it at any service provider on the spot, like ours. We have cellular plans that cover its use for a day, week,
-			or month, it all depends on how much you'd like to use their service.`,
-			`Boss Revolution also provides its clients with international phone recharges to various countries within their own respective cellular 
-			companies too. Our clients regularly make these recharges to phone companies such as Tigo, Claro, Movistar, and others, all of  which work
-			with Boss Revolution's service. You can provide anyone in those countries with a prepaid service to his/her phone number through Boss
-			Revolution. We also provide the alternative method of calling cards by Boss Revolution to you if you need to make any long distance calls.`
+			`Estamos asociados con Boss Revolution, un servicio que brinda una red de bajo costo para realizar llamadas telefónicas en teléfonos móviles prepagos,
+			a nuestros clientes que utilizan regularmente teléfonos prepagos para llamadas de larga distancia. Boss Revolution permite a sus clientes realizar recargas de teléfonos
+			en sus cuentas para agregar más minutos y datos móviles en sus teléfonos. Las recargas son simples, elija un plan prepago con la cantidad de minutos
+			y datos móviles en mente, y pague en cualquier proveedor de servicios en el lugar, como el nuestro. Contamos con planes celulares que cubren su uso por un día, semana,
+			o mes, todo depende de cuánto le gustaría utilizar su servicio.`,
+			`Boss Revolution también proporciona a sus clientes recargas de teléfonos internacionales a varios países dentro de sus respectivos teléfonos celulares.
+			empresas también. Nuestros clientes realizan periódicamente estas recargas a empresas de telefonía como Tigo, Claro, Movistar, entre otras, todas las cuales funcionan
+			con el servicio de Boss Revolution. Puede proporcionar a cualquier persona en esos países un servicio prepago a su número de teléfono a través de Boss
+			Revolución. También le proporcionamos el método alternativo de tarjetas telefónicas de Boss Revolution si necesita realizar llamadas de larga distancia.`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Need a Recharge? Let us help you add more minutes to your Boss Revolution account!`
+		tagline: `Necesitas una recarga? Permítanos ayudarlo a agregar más minutos a su cuenta de Boss Revolution!`
 	},
 
 	MONEY_ORDER: {
 		path: '/products/service/money-order',
 		name: 'Money Order',
-		description: `Use our RIA Money Order service to send money quickly.`,
+		description: `Utilice nuestro servicio RIA Money Order para enviar dinero rápidamente.`,
 		image: MoneyOrder,
 		images: [ Money4, Money6 ],
 		paragraphs: [
-			`Money Orders are another conventional method to transfering money to a destination and we provide money orders to you through RIA's 
-			payment nework. Super Latin Store doesn't work with Western Union or Moneygram, however RIA is a popular alternative that also makes it
-			quick and easy to create money orders to anyone on the spot.`,
-			`Just about anyone can ask for a money order at any time. Simply tell us how much you'd like to put down for the order, and we'll handle
-			the rest quickly. Once your order has been created and paid for, you are ready to use that money order however you'd like. That was easy!`
+			`Los giros postales son otro método convencional para transferir dinero a un destino y le proporcionamos giros postales a través de RIA
+			pago nework. Super Latin Store no funciona con Western Union o Moneygram, sin embargo, RIA es una alternativa popular que también lo hace
+			rápido y fácil de crear giros postales para cualquier persona en el lugar.`,
+			`Casi cualquier persona puede solicitar un giro postal en cualquier momento. Simplemente díganos cuánto le gustaría pagar por el pedido y nos encargaremos
+			el resto rápidamente. Una vez que se haya creado y pagado su pedido, estará listo para usar ese giro postal como desee. ¡Eso fue fácil!`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Use our RIA Money Order service to send money quickly.`
+		tagline: `Utilice nuestro servicio RIA Money Order para enviar dinero rápidamente.`
 	},
 
 	PACKAGING: {
 		path: '/products/service/packaging',
-		name: 'Packaging',
-		description: `Need something sent to Ecuador? Use our express shipping service!`,
+		name: 'Paqueteria',
+		description: `Necesitas enviar algo a Ecuador? Utilice nuestro servicio de envío urgente!`,
 		image: Geomil,
 		images: [ Money3, Money2 ],
 		paragraphs: [
-			`Super Latin Store is finally offering express package shippping to all provinces and districts in Ecuador only. Having reached an agreement
-			with Geomil Express, an express shipping company, we now have the ability to send your packages to Ecuador, risk free, through the Ecuadorian
-			consulate. All Ecuadorian citizens can apply to ship a select number of items to anyone in Ecuador and have it delivered to them the following
-			week. Geomil's service is guaranteed to assist you with taking absolute care and responsibility with all your items to its destination.`,
-			`In order to qualify for express shipping, a few prerequisites are required to be met by both the sender and the receiver. Both parties must 
-			present their Ecuadorian cedula or identification card to our store to confirm their status as valid citizens. If you're a resident here in the US, make
-			sure you are registered with the Ecuadorian consulate before considering making a shipment. Afterwards, provide us with details of its destination
-			and the contents that will be shipped. More details will be explained by one of our representatives. We only ship up to 8 lbs so pack light, and
-			delivery should take no more than 1-2 weeks. Consider making a shipment with us!`
+			`Super Latin Store finalmente ofrece envío de paquetes exprés a todas las provincias y distritos de Ecuador únicamente. Habiendo llegado a un acuerdo
+			con Geomil Express, una empresa de envío expreso, ahora tenemos la capacidad de enviar sus paquetes a Ecuador, sin riesgo, a través del
+			consulado. Todos los ciudadanos ecuatorianos pueden postularse para enviar un número selecto de artículos a cualquier persona en Ecuador y que se les entregue lo siguiente
+			semana. El servicio de Geomil está garantizado para ayudarlo a tener un cuidado y responsabilidad absolutos con todos sus artículos hasta su destino.`,
+			`Para calificar para el envío expreso, tanto el remitente como el destinatario deben cumplir algunos requisitos previos. Ambas partes deben
+			presentar su cédula ecuatoriana o cédula de identificación en nuestra tienda para confirmar su condición de ciudadanos válidos. Si es residente aquí en los EE. UU.,
+			asegúrese de estar registrado en el consulado de Ecuador antes de considerar realizar un envío. Posteriormente, indícanos los detalles de su destino.
+			y el contenido que se enviará. Uno de nuestros representantes le explicará más detalles. Solo enviamos hasta 8 libras, así que empaca liviano y
+			el parto no debería tardar más de 1 a 2 semanas. ¡Considere hacer un envío con nosotros!`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Need something sent to Ecuador? Use our express shipping service!`
+		tagline: `Necesitas enviar algo a Ecuador? Utilice nuestro servicio de envío urgente!`
 	},
 
 	CASH_CHECKS: {
 		path: '/products/service/cash-checks',
-		name: 'Cash Checks',
-		description: `Turn in your payroll checks for cash quickly and for a low fee.`,
+		name: 'Cambiar Cheques',
+		description: `Entregue sus cheques de nómina por efectivo rápidamente y por una tarifa baja.`,
 		image: CashCheck,
 		images: [ Money1, Money3 ],
 		paragraphs: [
-			`Want to turn those payroll checks into cash quick? Visit our spot any day of the week and we can help you cash those checks for you without
-			needing to rush to the bank, conveniency at its best. At the moment we only accept payroll checks from approved companies or employers with a 
-			verifiable account number. Therefore, personal checks will not be accepted.`,
-			`We only cash checks up to $999 and they must not be signed until they are presented to us at the store. In order to cash a check, you must provide
-			us with any proof of identification so we can confirm your identity. Our convenience fee is always 1.5% of any payroll checks and they must not be void
-			after 90 days.`
+			`Quiere convertir esos cheques de nómina en efectivo rápidamente? Visite nuestro lugar cualquier día de la semana y podemos ayudarlo a cobrar esos cheques por usted sin
+			necesidad de correr al banco, comodidad en su máxima expresión. Por el momento solo aceptamos cheques de nómina de empresas aprobadas o empleadores con un
+			número de cuenta comprobable. Por tanto, no se aceptarán cheques personales.`,
+			`Solo cambiamos cheques hasta $ 999 y no se deben firmar hasta que nos los presente en la tienda. Para cobrar un cheque, debe proporcionar
+			nosotros con cualquier prueba de identificación para que podamos confirmar su identidad. Nuestra tarifa de conveniencia es siempre el 1.5% de los cheques de nómina y no deben anularse
+			después de 90 días.`
 		],
 
 		goals: [ 'This is goal 1', 'This is goal 2', 'This is goal 3' ],
-		tagline: `Turn in your payroll checks for cash quickly and for a low fee.`
+		tagline: `Entregue sus cheques de nómina por efectivo rápidamente y por una tarifa baja.`
 	}
 };

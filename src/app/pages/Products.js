@@ -22,7 +22,7 @@ const ProductsPage = () => {
 
 	return (
 		<div>
-			<Navbar active="Products" />
+			<Navbar active="Productos" />
 			<header style={{ padding: 30 }}>
 				<h1 className="banner-text">Our {tab.charAt(0).toUpperCase() + tab.slice(1)}</h1>
 				<div className="categories">

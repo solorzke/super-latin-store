@@ -9,8 +9,8 @@ const LocationPage = () => {
 	const [ show, setShow ] = useState(false);
 	return (
 		<div>
-			<Navbar active="Location" />
-			<Banner title="Location" subtitle="Office Hours, Location & more." hideBtn={true} />
+			<Navbar active="Ubicación" />
+			<Banner title="Ubicación" subtitle="Horas de oficina, ubicación y más." hideBtn={true} />
 			<main className="location">
 				<section className="location-info">
 					<Container>
@@ -22,9 +22,9 @@ const LocationPage = () => {
 								<p>Newark, NJ 07105</p>
 							</Col>
 							<Col>
-								<h2>Contact</h2>
+								<h2>Contacto</h2>
 								<p>
-									Phone:
+									Telefono:
 									<a href="tel:+9739913030">(973)-991-3030</a>
 								</p>
 								<p>
@@ -34,12 +34,12 @@ const LocationPage = () => {
 						</Row>
 						<Row>
 							<Col>
-								<h2>Office Hours</h2>
-								<p>Monday - Sunday</p>
-								<p>9am - 9pm</p>
+								<h2>Horas de Oficina</h2>
+								<p>Lunes - Domingo</p>
+								<p>8am - 9pm</p>
 							</Col>
 							<Col>
-								<h2>Social Media</h2>
+								<h2>Redes Sociales</h2>
 								<a href="https://www.facebook.com/SuperLatinStoreEC/" target="_blank">
 									<i class="fab fa-facebook social-media" />
 								</a>

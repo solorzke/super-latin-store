@@ -53,7 +53,7 @@ const ServicePage = () => {
 
 	return (
 		<div>
-			<Navbar active={'Products'} />
+			<Navbar active={'Productos'} />
 			<Banner title="Services" subtitle={service.name} hideBtn={true} />
 			<Container fluid>
 				<article>

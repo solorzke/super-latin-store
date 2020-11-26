@@ -13,20 +13,21 @@ const Newsletter = () => {
 	return (
 		<section className="newsletter">
 			<Container fluid>
-				<h2 className="banner-text">Monthly Newsletter</h2>
+				<h2 className="banner-text">Boletín Mensual</h2>
 				<p className="banner-text">
-					Sign Up to receive updates from our shop, including new tea selections and upcoming events
+					Regístrese para recibir actualizaciones de nuestra tienda, incluidas nuevas selecciones de té y
+					próximos eventos
 				</p>
 				<div className="newsletter-form">
 					<InputGroup size="sm">
 						<FormControl
-							placeholder="Sign Up with your email address"
+							placeholder="Regístrese con su dirección de correo electrónico"
 							aria-label="Recipient's email address"
 							aria-describedby="basic-addon2"
 							ref={INPUT_EMAIL}
 						/>
 						<InputGroup.Append>
-							<Button variant="outline-secondary">Subscribe</Button>
+							<Button variant="outline-secondary">Suscribir</Button>
 						</InputGroup.Append>
 					</InputGroup>
 				</div>

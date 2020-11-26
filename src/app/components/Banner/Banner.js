@@ -14,7 +14,7 @@ const Banner = ({ title, subtitle, hideBtn }) => {
 	const BannerButton = () => {
 		return (
 			<div className="banner-btn">
-				<Button label="Learn More" onClick={() => routeChange()} />
+				<Button label="Aprende Más" onClick={() => routeChange()} />
 			</div>
 		);
 	};

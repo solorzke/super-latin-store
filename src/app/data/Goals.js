@@ -1,32 +1,32 @@
 export const ServiceText = [
 	{
-		service: 'Safe & Secure Money Transfer',
-		description: `Our trained employees can help you send your hard-earned cash to anyone around the world safely and securely.
-		Using our world class money transfer network, you can rest easy knowing your cash arrives to its destination on time and to the right person. The same applies
-		to anyone looking to receive money sent over from somewhere around the world. Pay us a visit with your documents ready to receive cash, on the spot.`,
+		service: 'Transferencia De Dinero Segura y Protegida',
+		description: `Nuestros empleados capacitados pueden ayudarlo a enviar el efectivo que tanto le costó ganar a cualquier persona en todo el mundo de manera segura.
+		Con nuestra red de transferencia de dinero de clase mundial, puede estar tranquilo sabiendo que su efectivo llega a su destino a tiempo y a la persona adecuada. Lo mismo aplica
+		a cualquiera que desee recibir dinero enviado desde algún lugar del mundo. Visítenos con sus documentos listos para recibir efectivo, en el acto.`,
 		icon: 'fas fa-money-bill-wave',
-		subtitle: 'Send/Receive Money easy & fast!',
+		subtitle: 'Envíe/reciba dinero fácil y rápido!',
 		sequence: 'first'
 	},
 
 	{
-		service: 'Everything You Need - Here',
-		description: `Our Bodega is equipped with almost everything a person could need last minute instead of driving many miles out. If you're in the mood
-		for a snack, we provide everything from chips, candy and crackers. We also provide imported goods from Ecuador including hominy, flax seeds, herbs, 
-		spices, beans, tuna, chuno flour, and much more. Feeling under the weather? - Visit our bodega and we can provide you with a selection of over-the-counter
-		medicine to treat flu, fever, headaches, injuries, and others.`,
+		service: 'Todo Lo Que Necesita - Aquí',
+		description: `Nuestra bodega está equipada con casi todo lo que una persona podría necesitar en el último momento en lugar de conducir muchos kilómetros. Si estas de humor
+		para un refrigerio, ofrecemos de todo, desde papas fritas, dulces y galletas saladas. También proporcionamos productos importados de Ecuador, incluidos maíz, semillas de lino, hierbas,
+		especias, frijoles, atún, harina de chuno y mucho más. ¿Me siento mal? - Visite nuestra bodega y podemos ofrecerle una selección de productos de venta libre.
+		medicina para tratar la gripe, fiebre, dolores de cabeza, lesiones y otros.`,
 		icon: 'fas fa-store',
-		subtitle: 'Food, Drinks, Clothing and more available here.',
+		subtitle: 'Alimentos, bebidas, ropa y más disponibles aquí.',
 		sequence: 'second'
 	},
 
 	{
-		service: 'Reliability For All Your Financial Needs',
-		description: `Our reputation with our customers is very valuable to us, as we make sure to provide the best quality service in our community.
-		We're happy to assist you with any issues or questions you may have - ranging from planning your money transfer business, to providing financial recommendations
-		on your next visit. All you have to do, is ask!`,
+		service: 'Fiabilidad Para Todas Sus Necesidades Financieras',
+		description: `Nuestra reputación con nuestros clientes es muy valiosa para nosotros, ya que nos aseguramos de brindar el mejor servicio de calidad en nuestra comunidad.
+		Nos complace ayudarlo con cualquier problema o pregunta que pueda tener, desde planificar su negocio de transferencia de dinero hasta brindar recomendaciones financieras.
+		en su próxima visita. ¡Todo lo que tienes que hacer es preguntar!`,
 		icon: 'fas fa-hands-helping',
-		subtitle: 'Providing service to you any way we can.',
+		subtitle: 'Brindarle servicio de todos modos.',
 		sequence: 'third'
 	}
 ];
@@ -59,7 +59,7 @@ export const BannerList = {
 };
 
 export const Label = {
-	title: 'Our Guarantee To You',
-	subtitle: 'Our Goals',
+	title: 'Nuestra Garantía Para Ti',
+	subtitle: 'Nuestras metas',
 	icon: 'fas fa-globe banner-title'
 };

@@ -55,7 +55,7 @@ const ProductPage = () => {
 		return (
 			<div className="product-info pb-5">
 				<h1>{product.name}</h1>
-				<h2>{!price_range.includes('Varies') ? `$${price_range}` : `Price: ${price_range}`}</h2>
+				<h2>{!price_range.includes('Varía') ? `$${price_range}` : `Precio: ${price_range}`}</h2>
 				<p>
 					{product.description}
 					<div style={{ borderBottom: '1px solid #000', width: '90%', paddingTop: 10 }} />
@@ -65,7 +65,7 @@ const ProductPage = () => {
 					variant={product.available ? 'success' : 'danger'}
 					style={{ fontFamily: "'Bebas Neue', cursive", padding: 10 }}
 				>
-					{product.available ? 'Available' : 'Sold Out'}
+					{product.available ? 'Disponible' : 'Agotado'}
 				</Badge>
 			</div>
 		);
@@ -73,7 +73,7 @@ const ProductPage = () => {
 
 	return (
 		<div>
-			<Navbar active="Products" />
+			<Navbar active="Productos" />
 			<Breadcrumb>
 				<Breadcrumb.Item href="/products">Products</Breadcrumb.Item>
 				<Breadcrumb.Item active>{product.name}</Breadcrumb.Item>

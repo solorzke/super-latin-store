@@ -43,7 +43,7 @@ const HomePage = () => {
 
 	return (
 		<div>
-			<Navbar active="Home" />
+			<Navbar active="Inicio" />
 			<Banner title="Super Latin Store" subtitle="Newark, NJ" hideBtn={false} />
 			<main>
 				<rssapp-wall style={{ fontFamily: `Arial, Helvetica, sans-serif` }} id="CReEemRa9lbFqG24" />
@@ -52,9 +52,9 @@ const HomePage = () => {
 				<LightSpeed left>
 					<Container>
 						<h1 className="banner-text" style={{}}>
-							Featured Services
+							Servicios Destacados
 						</h1>
-						<p className="banner-text">Check out new and popular services</p>
+						<p className="banner-text">Consulte los servicios nuevos y populares</p>
 						{chevron === 'left' && servicesPane[0]}
 						{chevron === 'right' && servicesPane[1]}
 						<div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -77,8 +77,8 @@ const HomePage = () => {
 			<section>
 				<Fade left>
 					<Container>
-						<h2>This is our store</h2>
-						<p>This is our business and our profile</p>
+						<h2>Esto es lo que somos</h2>
+						<p>Sirviendo a la comunidad latinoamericana</p>
 						<hr />
 						<Row>
 							{Summary.about.map((item, index) => {
