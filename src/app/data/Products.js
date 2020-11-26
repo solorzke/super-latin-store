@@ -416,7 +416,7 @@ export const Services = {
 
 	BOOST_RECHARGE: {
 		path: '/products/service/recharge',
-		name: 'Recargas Telefónicas',
+		name: 'Recargas',
 		description: `Necesitas una recarga? Permítanos ayudarlo a agregar más minutos a su telefono.`,
 		image: BossRevolution,
 		images: [ Money8, Money9 ],

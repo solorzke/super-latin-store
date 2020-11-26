@@ -14,30 +14,33 @@ import { ServiceText, Label } from '../data/Goals';
 const HomePage = () => {
 	const [ chevron, setChevron ] = useState('left');
 	const [ adjust, setAdjust ] = useState(false);
-	useEffect(() => {
-		window.innerWidth < 500 ? setAdjust(true) : setAdjust(false);
-		const handleResize = () => {
-			switch (window.innerWidth < 500) {
-				case true:
-					if (!adjust) setAdjust(true);
-					break;
-				case false:
-					if (adjust) setAdjust(false);
-					break;
-			}
-		};
-		window.addEventListener('resize', handleResize);
-	});
+	useEffect(
+		() => {
+			window.innerWidth < 500 ? setAdjust(true) : setAdjust(false);
+			const handleResize = () => {
+				switch (window.innerWidth < 500) {
+					case true:
+						if (!adjust) setAdjust(true);
+						break;
+					case false:
+						if (adjust) setAdjust(false);
+						break;
+				}
+			};
+			window.addEventListener('resize', handleResize);
+		},
+		[ adjust ]
+	);
 	const servicesPane = [
 		<Row>
-			<ProductCard data={Services.SEND_MONEY} pos="center center" />
-			<ProductCard data={Services.PAY_BILL} pos="center center" />
-			<ProductCard data={Services.BOOST_RECHARGE} pos="center center" />
+			<ProductCard data={Services.SEND_MONEY} pos="center 30%" />
+			<ProductCard data={Services.PAY_BILL} pos="center 30%" />
+			<ProductCard data={Services.BOOST_RECHARGE} pos="center 30%" />
 		</Row>,
 		<Row>
-			<ProductCard data={Services.CASH_CHECKS} pos="center center" />
-			<ProductCard data={Services.MONEY_ORDER} pos="center center" />
-			<ProductCard data={Services.PACKAGING} pos="center center" />
+			<ProductCard data={Services.CASH_CHECKS} pos="center 30%" />
+			<ProductCard data={Services.MONEY_ORDER} pos="center 30%" />
+			<ProductCard data={Services.PACKAGING} pos="center 30%" />
 		</Row>
 	];
 
