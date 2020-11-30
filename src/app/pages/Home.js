@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Nav/Navbar';
 import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
+import Reviews from '../components/Reviews/Reviews';
 import { ProductCard } from '../components/Product/Product';
 import { Container, Row, Col, Pagination } from 'react-bootstrap';
 import { Summary } from '../data/Summary';
@@ -97,6 +98,7 @@ const HomePage = () => {
 			</section>
 			<ServiceBars label={Label} data={ServiceText} name="piece-light" size={500} />
 			{/* <Newsletter /> */}
+			<Reviews />
 			<Footer />
 		</div>
 	);
