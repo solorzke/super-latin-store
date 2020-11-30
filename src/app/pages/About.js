@@ -115,7 +115,7 @@ const AboutPage = () => {
 							probaremos nuestro ¡Es mejor responder pronto!
 						</p>
 						<p className="section-heading">
-							<Button label="Send Message" onClick={() => sendMessage()} />
+							<Button label="Enviar Mensaje" onClick={() => sendMessage()} />
 						</p>
 					</Container>
 				</div>

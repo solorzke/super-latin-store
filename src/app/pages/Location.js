@@ -59,6 +59,7 @@ const LocationPage = () => {
 					</Container>
 				</section>
 			</main>
+			<Reviews />
 			<Footer />
 		</div>
 	);
