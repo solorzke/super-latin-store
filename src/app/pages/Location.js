@@ -4,6 +4,7 @@ import Banner from '../components/Banner/Banner';
 import Footer from '../components/Footer/Footer';
 import { Container, Row, Col } from 'react-bootstrap';
 import ModalImage from '../components/Modal/Modal';
+import Reviews from '../components/Reviews/Reviews';
 
 const LocationPage = () => {
 	const [ show, setShow ] = useState(false);
