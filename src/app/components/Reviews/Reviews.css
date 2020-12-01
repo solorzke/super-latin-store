@@ -33,6 +33,7 @@
 	text-align: center;
 	justify-content: center;
 	align-self: flex-start;
+	padding-right: 5px;
 }
 
 .description {
