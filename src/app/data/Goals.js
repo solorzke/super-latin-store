@@ -11,9 +11,9 @@ export const ServiceText = [
 
 	{
 		service: 'Todo Lo Que Necesita - Aquí',
-		description: `Nuestra bodega está equipada con casi todo lo que una persona podría necesitar en el último momento en lugar de conducir muchos kilómetros. Si estas de humor
+		description: `Nuestra tienda está equipada con casi todo lo que una persona podría necesitar en el último momento en lugar de conducir muchos kilómetros. Si estas de humor
 		para un refrigerio, ofrecemos de todo, desde papas fritas, dulces y galletas saladas. También proporcionamos productos importados de Ecuador, incluidos maíz, semillas de lino, hierbas,
-		especias, frijoles, atún, harina de chuno y mucho más. ¿Me siento mal? - Visite nuestra bodega y podemos ofrecerle una selección de productos de venta libre.
+		especias, frijoles, atún, harina de chuno y mucho más. ¿Me siento mal? - Visite nuestra tienda y podemos ofrecerle una selección de productos de venta libre.
 		medicina para tratar la gripe, fiebre, dolores de cabeza, lesiones y otros.`,
 		icon: 'fas fa-store',
 		subtitle: 'Alimentos, bebidas, ropa y más disponibles aquí.',
