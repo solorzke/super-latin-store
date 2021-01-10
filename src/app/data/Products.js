@@ -8,16 +8,15 @@ import CashCheck from '../images/cashcheck.png';
 
 //MEDICINE
 import Medicine1 from '../images/medicine/1.png';
-import Medicine2 from '../images/medicine/2.webp';
+import Medicine2 from '../images/medicine/2.png';
 import Medicine3 from '../images/medicine/3.png';
 import Medicine4 from '../images/medicine/4.png';
-import Medicine5 from '../images/medicine/5.jpg';
+import Medicine5 from '../images/medicine/5.png';
 
 //JEWELERY
 import Jewels1 from '../images/jewelery/1.png';
 import Jewels2 from '../images/jewelery/2.png';
 import Jewels3 from '../images/jewelery/3.png';
-import Jewels4 from '../images/jewelery/4.png';
 
 //PERFUMES
 import Perfume1 from '../images/perfumes/1.png';
@@ -145,9 +144,9 @@ export const Products = [
 
 	{
 		path: '/products/product/medicine',
-		name: 'Medicina y Hierbas',
-		description: `Me siento mal? Nuestra tienda ofrece remedios rápidos para combatir la gripe, los dolores de cabeza, el dolor, la fiebre, el dolor y otros.
-		Ofrecemos medicamentos de venta libre que se pueden encontrar en cualquier farmacia aquí a su conveniencia, cuando lo necesite.`,
+		name: 'Productos Medicinales',
+		description: `Contamos con medicamentos de venta libre para aliviar algunas dolencia de los clientes tales como: sobres para la gripe, 
+		unguentos para dolores musculares, hierbas medicinales para dolores estomacales y mas… Temenos tambien vitaminas tanto para adulto como para ninos.`,
 		images: [ Medicine1, Medicine2, Medicine3, Medicine4, Medicine5 ],
 		image: Medicine1,
 		alt: 'Medicine & Herbs',
@@ -155,27 +154,30 @@ export const Products = [
 		available: true,
 		tagline: `Theraflu, Alka-Seltzer, Aspirina, Vaporub, Sangre De Drago y mas.`,
 		points: [
-			'Dolores De Cabeza: Tylenol, Advil, Bayer, Finalin Forte',
-			'Flu: Singripal, Lemon FLu, Theraflu',
-			'Indigestión: Tums, Pepto Bismol',
-			'Llagas y Raspaduras: Sangre de Drago',
-			'Mentol: Mentol Chino, Vaporub'
+			'Sobres de Singripal, Lemonflu, Therraflu.',
+			'Jarabes Rompe pecho, Eucamiel, Emulsion de Scot.',
+			'Vitaminas Pharmaton, VitaminaC, Vita Toro, Emulsion Scot.',
+			'Agua Florida, agua de Ruda, Colonia Caballito, Timolina, Valeria en Gotas, Sangre de Drago y mas…',
+			'Amplia gama de hierbas medicinales.'
 		]
 	},
 
 	{
 		path: '/products/product/jewels',
-		name: 'Joyería',
-		description: `Las joyas son algo especial que complementa el aspecto del usuario y nuestra tienda le ofrece una selección de varios tipos.
-		para elegir, incluidos aretes, anillos, pulseras y otras piezas de joyería afines a la cultura latinoamericana, como pulseras de 7 metales y
-		más.`,
-		images: [ Jewels1, Jewels2, Jewels3, Jewels4 ],
+		name: 'Joyas de Goldfilled',
+		description: `Temenos varios tipos de joyeria banada en oro ecuatoriano que garantiza su duracion y evita alergias en la piel.`,
+		images: [ Jewels1, Jewels2, Jewels3 ],
 		image: Jewels1,
 		alt: 'Jewels',
 		price: [ 20, 30, 40 ],
 		available: true,
 		tagline: `Pulseras, pendientes, collares, anillos.`,
-		points: [ 'Pendientes, collares, anillos', 'Plata, oro, bronce disponible', 'Pulseras de 7 metales disponible' ]
+		points: [
+			'Cadenas, dijes y pulseras',
+			'Aretes de ninas, damas y caballeros.',
+			'Pulseras de mano y de pie.',
+			'Joyas de los 7 metales, tradicionales de nuestra tierra.'
+		]
 	},
 
 	{
@@ -348,9 +350,7 @@ export const Products = [
 	{
 		path: '/products/product/apparel',
 		name: 'Vestidos',
-		description: `Tenemos una amplia lista de prendas que van desde gorras, sombreros, gorros, guantes, jerseys y anteojos.
-		Nuestra selección de camisetas incluye equipos nacionales de fútbol como Ecuador o clubes como Barcelona, ​​Liga de Quito, Emelec y más.
-		Los sombreros están disponibles para cualquier tipo de clima, frío o soleado.`,
+		description: `Temenos una variedad en camisetas deportivas de su equipo favorito, balones de volley, redes, canilleras, banderas deportivas y mas…`,
 		images: [ Apparel1, Apparel2, Apparel3 ],
 		image: Apparel2,
 		alt: 'Apparel',
@@ -358,10 +358,9 @@ export const Products = [
 		available: true,
 		tagline: `Sombreros, gorras, bufandas, camisas, guantes, chaquetas.`,
 		points: [
-			'Sombreros apropiados para cualquier clima, incluidos gorros y pasamontañas',
-			'Camisetas deportivas que incluyen equipos y clubes nacionales de fútbol',
-			'Guantes apropiados para trabajos en maquinaria.',
-			'Gafas de sol en varios tamaños diferentes.'
+			'Gorras de invierno y Verano de acuerdo a la estacion, para damas, caballeros y ninos.',
+			'Guantes de invierno y de trabajadores de la construccion.l',
+			'Variedad en gafas, carteras, billeteras, llaveros, tarjetas y mas…'
 		]
 	}
 ];
