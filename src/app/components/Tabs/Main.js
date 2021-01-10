@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import { Fade } from 'react-reveal';
 import { TabAccordian, ServiceTabs } from './Accordian';
 
 export class ServiceBars extends Component {
@@ -111,40 +110,38 @@ export class ServiceBars extends Component {
 
 	render() {
 		return (
-			<Fade left>
-				<div className="tabs">
-					<Container>
-						<Row>
-							<div
-								className={`col-md-12 d-flex flex-column align-items-center justify-content-center ${this
-									.props.name}`}
-							>
-								<i className="fas fa-bullseye" style={{ fontSize: 35 }} />
-								<h6 className="banner-title">{this.props.label.subtitle}</h6>
-								<h1 className="banner-title">{this.props.label.title}</h1>
-								<div style={{ width: '100%', border: '1px solid #e8e8e8', marginBottom: 10 }} />
-								<br />
-								{!this.state.adjust && (
-									<ServiceTabs
-										data={this.props.data}
-										state={this.state}
-										setKey={this.setKey.bind(this)}
-										stopInterval={this.stopInterval.bind(this)}
-									/>
-								)}
-								{this.state.adjust && (
-									<TabAccordian
-										data={this.props.data}
-										state={this.state}
-										setKey={this.setKey.bind(this)}
-										stopInterval={this.stopInterval.bind(this)}
-									/>
-								)}
-							</div>
-						</Row>
-					</Container>
-				</div>
-			</Fade>
+			<div className="tabs">
+				<Container>
+					<Row>
+						<div
+							className={`col-md-12 d-flex flex-column align-items-center justify-content-center ${this
+								.props.name}`}
+						>
+							<i className="fas fa-bullseye" style={{ fontSize: 35 }} />
+							<h6 className="banner-title">{this.props.label.subtitle}</h6>
+							<h1 className="banner-title">{this.props.label.title}</h1>
+							<div style={{ width: '100%', border: '1px solid #e8e8e8', marginBottom: 10 }} />
+							<br />
+							{!this.state.adjust && (
+								<ServiceTabs
+									data={this.props.data}
+									state={this.state}
+									setKey={this.setKey.bind(this)}
+									stopInterval={this.stopInterval.bind(this)}
+								/>
+							)}
+							{this.state.adjust && (
+								<TabAccordian
+									data={this.props.data}
+									state={this.state}
+									setKey={this.setKey.bind(this)}
+									stopInterval={this.stopInterval.bind(this)}
+								/>
+							)}
+						</div>
+					</Row>
+				</Container>
+			</div>
 		);
 	}
 }

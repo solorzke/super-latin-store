@@ -53,48 +53,44 @@ const HomePage = () => {
 				<rssapp-wall style={{ fontFamily: `Arial, Helvetica, sans-serif` }} id="CReEemRa9lbFqG24" />
 			</main>
 			<section>
-				<LightSpeed left>
-					<Container>
-						<h1 className="banner-text" style={{}}>
-							Servicios Destacados
-						</h1>
-						<p className="banner-text">Consulte los servicios nuevos y populares</p>
-						{chevron === 'left' && servicesPane[0]}
-						{chevron === 'right' && servicesPane[1]}
-						<div style={{ display: 'flex', justifyContent: 'center' }}>
-							<Pagination size="sm">
-								<div onClick={() => setChevron('left')}>
-									<Pagination.Item active={chevron === 'left' ? true : false}>
-										<i className="fas fa-chevron-left" />
-									</Pagination.Item>
-								</div>
-								<div onClick={() => setChevron('right')}>
-									<Pagination.Item active={chevron === 'right' ? true : false}>
-										<i className="fas fa-chevron-right" />
-									</Pagination.Item>
-								</div>
-							</Pagination>
-						</div>
-					</Container>
-				</LightSpeed>
+				<Container>
+					<h1 className="banner-text" style={{}}>
+						Servicios Destacados
+					</h1>
+					<p className="banner-text">Consulte los servicios nuevos y populares</p>
+					{chevron === 'left' && servicesPane[0]}
+					{chevron === 'right' && servicesPane[1]}
+					<div style={{ display: 'flex', justifyContent: 'center' }}>
+						<Pagination size="sm">
+							<div onClick={() => setChevron('left')}>
+								<Pagination.Item active={chevron === 'left' ? true : false}>
+									<i className="fas fa-chevron-left" />
+								</Pagination.Item>
+							</div>
+							<div onClick={() => setChevron('right')}>
+								<Pagination.Item active={chevron === 'right' ? true : false}>
+									<i className="fas fa-chevron-right" />
+								</Pagination.Item>
+							</div>
+						</Pagination>
+					</div>
+				</Container>
 			</section>
 			<section>
-				<Fade left>
-					<Container>
-						<h2>Esto es lo que somos</h2>
-						<p>Sirviendo a la comunidad latinoamericana</p>
-						<hr />
-						<Row>
-							{Summary.about.map((item, index) => {
-								return (
-									<Col key={index} md={adjust ? 12 : 6}>
-										<p className="summary">{item}</p>
-									</Col>
-								);
-							})}
-						</Row>
-					</Container>
-				</Fade>
+				<Container>
+					<h2>Esto es lo que somos</h2>
+					<p>Sirviendo a la comunidad latinoamericana</p>
+					<hr />
+					<Row>
+						{Summary.about.map((item, index) => {
+							return (
+								<Col key={index} md={adjust ? 12 : 6}>
+									<p className="summary">{item}</p>
+								</Col>
+							);
+						})}
+					</Row>
+				</Container>
 			</section>
 			<ServiceBars label={Label} data={ServiceText} name="piece-light" size={500} />
 			{/* <Newsletter /> */}
