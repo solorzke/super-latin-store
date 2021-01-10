@@ -1,15 +1,13 @@
 export const Summary = {
 	about: [
-		`Somos Super Latin Store, ubicada en Wilson Avenue en Newark, Nueva Jersey. Abrimos todos los días de 8:00 a 21:00 h. 
-		Llevamos unos años operando aquí pero ya han tenido un gran impacto en nuestra comunidad al brindarles todo lo que 
-		necesitan. Nuestro negocio es más que cualquier tienda de conveniencia, Hacemos todo lo posible para brindarle el mejor 
-		servicio para enviar dinero al extranjero, también a todo el mundo. Nuestros clientes confían en nosotros para enviar sus
-		dinero en efectivo ganado con esfuerzo en órdenes de pago a quienes deseen en cualquier momento, utilizando nuestros 
-		socios comerciales AFEX, y usted también puede confiar en nosotros.`,
-		`Creamos esta tienda como un lugar para ayudar a servir a la comunidad latina que es rica tanto en cultura como en respeto.
-		Como compatriotas ecuatorianos, llegamos a comprender cuánto nos enorgullecemos del trabajo que realizamos para servir a la 
-		comunidad, al más alto nivel de dedicación y cuidado. Nuestra tienda sirve para brindarle una amplia gama de artículos y 
-		servicios, que van desde alimentos, medicamentos y ropa, hasta asuntos más financieros como giros postales y pagos de facturas. 
-		Visítenos pronto con cualquier cosa que necesite de nosotros, ¡estamos a su disposición!`
+		`Somos Super Latin Store, ubicada en 30 Wilson Avenue en Newark, Nueva Jersey. Nuestra empresa nacio en Noviembre del 2014, 
+		con el objetivo de satisfacer a nuestros clientes hispanos a traves de los productos y servicios ofrecidos. A lo largo de 
+		esta trayectoria en el mercado nos hemos ganado la confiaza de nuestros consumidores al servir a la comunidad Latina de manera eficaz. 
+		Importamos mercaderia de Latinoamerica para cumplir con las necesidades de las personas que acuden a nuestro local. Dicho inventario 
+		abarca: Granos secos, Hierbas Medicinales, Productos enlatados, productos congelados, galletas y caramelos, productos medicinales 
+		permitidos bajo venta libre y mas…`,
+		`Brindamos servicios de envios de Dinero hacia cualquier parte del mundo con nuestra afiliada Afex/Ria Money Transfer. 
+		La cual le permite recibir el dinero en la mayoria de las agencias y Bancos  de manera rapida y segura.
+		Actualmente contamos con nuevos servicios que van desde pagos de billes, money orders, recargas nacionales e internacionales y paqueteria.`
 	]
 };
