@@ -21,7 +21,6 @@ const Footer = () => {
 
 const Navigation = () => {
 	const [ show, setShow ] = useState(false);
-
 	return (
 		<div className="navigation-footer">
 			<Container fluid>
@@ -71,6 +70,12 @@ const Navigation = () => {
 								<ModalImage show={show} onHide={() => setShow(false)} />
 							</Col>
 						</Row>
+						<p style={{ paddingTop: 20 }}>
+							Designed by:{' '}
+							<a href="https://www.solorzke.com" target="_blank">
+								Solorzke Designs
+							</a>
+						</p>
 					</div>
 					<Col md={{ span: 4 }}>
 						<Table borderless responsive="md">
